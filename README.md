@@ -2,12 +2,21 @@
 
 Eine macOS Menu Bar App, die es ermöglicht, den aktuell laufenden Apple Music Song per Klick zu favorisieren.
 
+## 🚀 Status
+
+**✅ Implementation Complete** - App kompiliert und baut erfolgreich!
+
+**Version**: 0.1.0 (MVP)
+**Build Status**: ✅ Successful
+**Last Update**: 2025-10-24
+
 ## 📋 Projekt-Übersicht
 
 **App-Name**: StarTune
-**Platform**: macOS 12.0+
+**Platform**: macOS 14.0+ (Sonoma oder neuer)
 **Framework**: SwiftUI + AppKit
 **Sprache**: Swift 5.9+
+**Dependencies**: MusadoraKit 4.5.1
 
 ### Kern-Feature
 - **Menu Bar Icon** (⭐️): Zeigt Status von Apple Music
