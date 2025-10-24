@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- App Sandbox -->
+	<key>com.apple.security.app-sandbox</key>
+	<true/>
+
+	<!-- Network Access for MusicKit API -->
+	<key>com.apple.security.network.client</key>
+	<true/>
+
+	<!-- MusicKit Capability -->
+	<key>com.apple.developer.music-kit</key>
+	<true/>
+
+	<!-- AppleScript/Automation -->
+	<key>com.apple.security.automation.apple-events</key>
+	<true/>
+
+	<!-- Application Identifier (required for MusicKit) -->
+	<key>com.apple.application-identifier</key>
+	<string>$(AppIdentifierPrefix)com.benkohler.StarTune</string>
+</dict>
+</plist>
