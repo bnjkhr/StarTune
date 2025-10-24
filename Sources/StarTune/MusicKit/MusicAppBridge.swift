@@ -35,10 +35,25 @@ class MusicAppBridge: ObservableObject {
             return
         }
 
-        // Player State abrufen via AppleScript
+        // Prüfe erst ob Music.app läuft - robuster Check
+        let checkScript = """
+        tell application "System Events"
+            return (name of processes) contains "Music"
+        end tell
+        """
+
+        guard let isRunning = runAppleScript(checkScript), isRunning == "true" else {
+            // Music.app läuft nicht - kein Fehler loggen
+            isPlaying = false
+            currentTrackName = nil
+            currentArtist = nil
+            return
+        }
+
+        // Music.app läuft - jetzt Player State abrufen
         let script = """
         tell application "Music"
-            if it is running then
+            try
                 if player state is playing then
                     set trackName to name of current track
                     set trackArtist to artist of current track
@@ -46,9 +61,9 @@ class MusicAppBridge: ObservableObject {
                 else
                     return "||paused"
                 end if
-            else
-                return "||stopped"
-            end if
+            on error
+                return "||error"
+            end try
         end tell
         """
 
@@ -98,7 +113,11 @@ class MusicAppBridge: ObservableObject {
             let output = scriptObject.executeAndReturnError(&error)
 
             if let error = error {
-                print("AppleScript Error: \(error)")
+                // Nur echte Fehler loggen (nicht "not running")
+                if let errorNumber = error["NSAppleScriptErrorNumber"] as? Int,
+                   errorNumber != -600 { // -600 = Application not running
+                    print("⚠️ AppleScript Error: \(error)")
+                }
                 return nil
             }
 
