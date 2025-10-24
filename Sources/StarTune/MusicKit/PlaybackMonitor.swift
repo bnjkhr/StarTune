@@ -20,7 +20,7 @@ class PlaybackMonitor: ObservableObject {
     private var queueObserver: AnyCancellable?
     private var timer: Timer?
 
-    private let player = MusicPlayer.shared
+    private let player = ApplicationMusicPlayer.shared
 
     // MARK: - Monitoring
 

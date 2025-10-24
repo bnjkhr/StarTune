@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "StarTune",
     platforms: [
-        .macOS(.v12)
+        .macOS(.v14)
     ],
     products: [
         .executable(
@@ -26,7 +26,8 @@ let package = Package(
             name: "StarTune",
             dependencies: [
                 "MusadoraKit"
-            ]
+            ],
+            path: "Sources/StarTune"
         )
     ]
 )

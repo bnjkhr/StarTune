@@ -7,7 +7,7 @@
 
 import Foundation
 import MusicKit
-// import MusadoraKit // Wird später hinzugefügt via SPM
+import MusadoraKit
 
 /// Service für Favorites Management
 class FavoritesService {
@@ -18,22 +18,19 @@ class FavoritesService {
     /// - Parameter song: Der Song der favorisiert werden soll
     /// - Returns: true wenn erfolgreich, false bei Fehler
     func addToFavorites(song: Song) async throws -> Bool {
-        // TODO: Mit MusadoraKit implementieren
-        // let success = try await MCatalog.favorite(song: song)
-
-        // Temporary Implementation ohne MusadoraKit
-        // Dies ist ein Placeholder - die echte Implementation erfolgt
-        // sobald MusadoraKit als Dependency hinzugefügt wurde
-
         print("Adding song to favorites: \(song.title)")
 
-        // Simuliere API Call
-        try await Task.sleep(nanoseconds: 500_000_000) // 0.5 Sekunden
+        do {
+            // Apple Music verwendet Ratings für "Favoriten"
+            // .like = Liked/Favorited, .dislike = Disliked
+            _ = try await MCatalog.addRating(for: song, rating: .like)
 
-        // TODO: Native MusicKit Favorites API verwenden
-        // Dokumentation: https://developer.apple.com/documentation/musickit
-
-        return true
+            print("✅ Successfully added '\(song.title)' to favorites")
+            return true
+        } catch {
+            print("❌ Error adding to favorites: \(error.localizedDescription)")
+            throw FavoritesError.networkError
+        }
     }
 
     // MARK: - Check Favorite Status
@@ -42,7 +39,9 @@ class FavoritesService {
     /// - Parameter song: Der zu prüfende Song
     /// - Returns: true wenn favorisiert, false wenn nicht
     func isFavorited(song: Song) async throws -> Bool {
-        // TODO: Implementierung mit MusadoraKit oder native API
+        // MusadoraKit bietet keine "getRating" Methode
+        // Wir können nur Ratings hinzufügen/löschen, nicht abfragen
+        // Für v1 ignorieren wir das und fügen einfach immer hinzu
         return false
     }
 
@@ -52,8 +51,13 @@ class FavoritesService {
     /// - Parameter song: Der Song der entfernt werden soll
     /// - Returns: true wenn erfolgreich
     func removeFromFavorites(song: Song) async throws -> Bool {
-        // TODO: Implementierung für zukünftige Features
-        return false
+        // Rating entfernen (unlove)
+        do {
+            _ = try await MCatalog.deleteRating(for: song)
+            return true
+        } catch {
+            throw FavoritesError.networkError
+        }
     }
 
     // MARK: - Get All Favorites
