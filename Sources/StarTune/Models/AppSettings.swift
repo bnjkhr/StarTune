@@ -6,40 +6,37 @@
 //
 
 import Foundation
+import Combine
 
 /// User Preferences und App Settings
 class AppSettings: ObservableObject {
     @Published var launchAtLogin: Bool {
         didSet {
-            UserDefaults.standard.set(launchAtLogin, forKey: "launchAtLogin")
+            UserDefaults.standard.set(launchAtLogin, forKey: Keys.launchAtLogin)
         }
     }
 
     @Published var showNotifications: Bool {
         didSet {
-            UserDefaults.standard.set(showNotifications, forKey: "showNotifications")
+            UserDefaults.standard.set(showNotifications, forKey: Keys.showNotifications)
         }
     }
 
     @Published var keyboardShortcutEnabled: Bool {
         didSet {
-            UserDefaults.standard.set(keyboardShortcutEnabled, forKey: "keyboardShortcutEnabled")
+            UserDefaults.standard.set(keyboardShortcutEnabled, forKey: Keys.keyboardShortcutEnabled)
         }
     }
 
-    init() {
-        self.launchAtLogin = UserDefaults.standard.bool(forKey: "launchAtLogin")
-        self.showNotifications = UserDefaults.standard.bool(forKey: "showNotifications")
-        self.keyboardShortcutEnabled = UserDefaults.standard.bool(forKey: "keyboardShortcutEnabled")
-    }
-}
-
-// MARK: - UserDefaults Keys
-
-extension UserDefaults {
     private enum Keys {
         static let launchAtLogin = "launchAtLogin"
         static let showNotifications = "showNotifications"
         static let keyboardShortcutEnabled = "keyboardShortcutEnabled"
+    }
+
+    init() {
+        self.launchAtLogin = UserDefaults.standard.bool(forKey: Keys.launchAtLogin)
+        self.showNotifications = UserDefaults.standard.bool(forKey: Keys.showNotifications)
+        self.keyboardShortcutEnabled = UserDefaults.standard.bool(forKey: Keys.keyboardShortcutEnabled)
     }
 }
