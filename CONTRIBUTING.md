@@ -406,7 +406,7 @@ Contributors will be:
 
 Feel free to:
 - Open an issue with label "question"
-- Contact maintainer: your-email@example.com
+- Contact maintainer: mail@benkohler.de
 
 ---
 

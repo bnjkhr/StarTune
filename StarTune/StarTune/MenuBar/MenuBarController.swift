@@ -21,6 +21,10 @@ class MenuBarController: ObservableObject {
         observeFavoriteNotifications()
     }
 
+    deinit {
+        NotificationCenter.default.removeObserver(self)
+    }
+
     private func setupMenuBar() {
         // Status Item in Menu Bar erstellen
         statusItem = NSStatusBar.system.statusItem(

@@ -9,6 +9,7 @@ import Foundation
 import Combine
 
 /// User Preferences und App Settings
+@MainActor
 class AppSettings: ObservableObject {
     @Published var launchAtLogin: Bool {
         didSet {

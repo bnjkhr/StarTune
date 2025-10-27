@@ -9,6 +9,7 @@ import MusicKit
 import SwiftUI
 
 /// SwiftUI View für Menu Bar Extra Content
+@MainActor
 struct MenuBarView: View {
     @ObservedObject var musicKitManager: MusicKitManager
     @ObservedObject var playbackMonitor: PlaybackMonitor

@@ -172,8 +172,7 @@ class PlaybackMonitor: ObservableObject {
                     score += 1
                 }
             } else {
-                // Wenn kein Artist angegeben, keine Penalty
-                score += 1
+                // Wenn kein Artist angegeben, keine Änderung der Punktzahl
             }
             
             // Album Bonus (wenn verfügbar)

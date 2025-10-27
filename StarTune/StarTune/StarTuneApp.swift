@@ -109,6 +109,8 @@ struct StarTuneApp: App {
                 // Pass managers to AppDelegate when view appears
                 appDelegate.musicKitManager = musicKitManager
                 appDelegate.playbackMonitor = playbackMonitor
+                // Trigger setup immediately after managers are assigned
+                appDelegate.performSetupIfNeeded()
             }
         } label: {
             // Dynamisches Icon basierend auf Playback Status
