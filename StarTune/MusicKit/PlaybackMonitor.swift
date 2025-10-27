@@ -15,9 +15,11 @@ class PlaybackMonitor: ObservableObject {
     @Published var currentSong: Song?
     @Published var isPlaying = false
     @Published var playbackTime: TimeInterval = 0
+    @Published var isFavorited = false
 
     private var timer: Timer?
     private let musicBridge = MusicAppBridge()
+    private let favoritesService = FavoritesService()
 
     // MARK: - Monitoring
 
@@ -95,13 +97,29 @@ class PlaybackMonitor: ObservableObject {
             if let firstSong = response.songs.first {
                 currentSong = firstSong
                 print("✅ Found song: \(firstSong.title) by \(firstSong.artistName)")
+
+                // Favorite-Status prüfen
+                await checkFavoriteStatus(for: firstSong)
             } else {
                 print("⚠️ No song found in catalog for: \(searchTerm)")
                 currentSong = nil
+                isFavorited = false
             }
         } catch {
             print("❌ Error searching for song: \(error.localizedDescription)")
             currentSong = nil
+            isFavorited = false
+        }
+    }
+
+    /// Prüft den Favorite-Status für einen Song
+    private func checkFavoriteStatus(for song: Song) async {
+        do {
+            let favorited = try await favoritesService.isFavorited(song: song)
+            isFavorited = favorited
+        } catch {
+            print("⚠️ Could not check favorite status: \(error.localizedDescription)")
+            isFavorited = false
         }
     }
 

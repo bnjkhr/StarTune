@@ -5,8 +5,8 @@
 //  Created on 2025-10-24.
 //
 
-import SwiftUI
 import MusicKit
+import SwiftUI
 
 /// SwiftUI View für Menu Bar Extra Content
 struct MenuBarView: View {
@@ -110,16 +110,31 @@ struct MenuBarView: View {
 
     private var actionsSection: some View {
         VStack(spacing: 8) {
-            // Favorite Button
-            Button(action: addToFavorites) {
-                HStack {
-                    Image(systemName: "star.fill")
-                    Text("Add to Favorites")
+            // Favorite Button - zeigt verschiedene States
+            if playbackMonitor.isFavorited {
+                // Song ist bereits favorisiert
+                Button(action: removeFromFavorites) {
+                    HStack {
+                        Image(systemName: "star.fill")
+                            .foregroundColor(.yellow)
+                        Text("Remove from Favorites")
+                    }
+                    .frame(maxWidth: .infinity)
                 }
-                .frame(maxWidth: .infinity)
+                .disabled(!playbackMonitor.hasSongPlaying || isProcessing)
+                .buttonStyle(.bordered)
+            } else {
+                // Song noch nicht favorisiert
+                Button(action: addToFavorites) {
+                    HStack {
+                        Image(systemName: "star")
+                        Text("Add to Favorites")
+                    }
+                    .frame(maxWidth: .infinity)
+                }
+                .disabled(!playbackMonitor.hasSongPlaying || isProcessing)
+                .buttonStyle(.borderedProminent)
             }
-            .disabled(!playbackMonitor.hasSongPlaying || isProcessing)
-            .buttonStyle(.borderedProminent)
 
             if isProcessing {
                 ProgressView()
@@ -143,6 +158,9 @@ struct MenuBarView: View {
                     isProcessing = false
 
                     if success {
+                        // Status aktualisieren
+                        playbackMonitor.isFavorited = true
+
                         // Success Notification
                         NotificationCenter.default.post(
                             name: .favoriteSuccess,
@@ -164,6 +182,50 @@ struct MenuBarView: View {
                         object: nil
                     )
                     print("Error adding to favorites: \(error.localizedDescription)")
+                }
+            }
+        }
+    }
+
+    private func removeFromFavorites() {
+        guard let song = playbackMonitor.currentSong else { return }
+
+        isProcessing = true
+
+        Task {
+            do {
+                let success = try await favoritesService.removeFromFavorites(song: song)
+
+                await MainActor.run {
+                    isProcessing = false
+
+                    if success {
+                        // Status aktualisieren
+                        playbackMonitor.isFavorited = false
+
+                        print("✅ Successfully removed '\(song.title)' from favorites")
+
+                        // Success Notification
+                        NotificationCenter.default.post(
+                            name: .favoriteSuccess,
+                            object: nil
+                        )
+                    } else {
+                        // Error Notification
+                        NotificationCenter.default.post(
+                            name: .favoriteError,
+                            object: nil
+                        )
+                    }
+                }
+            } catch {
+                await MainActor.run {
+                    isProcessing = false
+                    NotificationCenter.default.post(
+                        name: .favoriteError,
+                        object: nil
+                    )
+                    print("Error removing from favorites: \(error.localizedDescription)")
                 }
             }
         }

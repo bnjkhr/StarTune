@@ -6,8 +6,8 @@
 //
 
 import Foundation
-import MusicKit
 import MusadoraKit
+import MusicKit
 
 /// Service für Favorites Management
 class FavoritesService {
@@ -39,10 +39,21 @@ class FavoritesService {
     /// - Parameter song: Der zu prüfende Song
     /// - Returns: true wenn favorisiert, false wenn nicht
     func isFavorited(song: Song) async throws -> Bool {
-        // MusadoraKit bietet keine "getRating" Methode
-        // Wir können nur Ratings hinzufügen/löschen, nicht abfragen
-        // Für v1 ignorieren wir das und fügen einfach immer hinzu
-        return false
+        do {
+            // Rating vom Catalog abrufen
+            let rating = try await MCatalog.getRating(for: song)
+
+            // .like = Favorited/Liked
+            let isFavorite = (rating.value == .like)
+
+            print(
+                "🔍 Rating check for '\(song.title)': \(rating.value) (is favorite: \(isFavorite))")
+            return isFavorite
+        } catch {
+            // Fehler beim Abrufen = nicht favorisiert
+            print("⚠️ Could not check rating for '\(song.title)': \(error.localizedDescription)")
+            return false
+        }
     }
 
     // MARK: - Remove from Favorites
