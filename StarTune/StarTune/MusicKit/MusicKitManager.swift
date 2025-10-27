@@ -26,13 +26,17 @@ class MusicKitManager: ObservableObject {
     // MARK: - Authorization
 
     /// Fragt User nach MusicKit Berechtigung
-    func requestAuthorization() async {
+    /// Returns the authorization status
+    @discardableResult
+    func requestAuthorization() async -> MusicAuthorization.Status {
         let status = await MusicAuthorization.request()
         updateAuthorizationStatus()
 
         if status == .authorized {
             await checkSubscriptionStatus()
         }
+        
+        return status
     }
 
     /// Aktualisiert den internen Authorization Status

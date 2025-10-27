@@ -12,9 +12,12 @@ import SwiftUI
 struct MenuBarView: View {
     @ObservedObject var musicKitManager: MusicKitManager
     @ObservedObject var playbackMonitor: PlaybackMonitor
-
+    
+    let appDelegate: AppDelegate
+    
     @State private var favoritesService = FavoritesService()
     @State private var isProcessing = false
+    @State private var hasSetupRun = false
 
     var body: some View {
         VStack(alignment: .leading, spacing: 12) {
@@ -47,6 +50,13 @@ struct MenuBarView: View {
         }
         .padding()
         .frame(width: 300)
+        .onAppear {
+            // Trigger setup only once when view appears and StateObjects are guaranteed ready
+            if !hasSetupRun {
+                hasSetupRun = true
+                appDelegate.performSetupIfNeeded()
+            }
+        }
     }
 
     // MARK: - Sections
@@ -237,6 +247,7 @@ struct MenuBarView: View {
 #Preview {
     MenuBarView(
         musicKitManager: MusicKitManager(),
-        playbackMonitor: PlaybackMonitor()
+        playbackMonitor: PlaybackMonitor(),
+        appDelegate: AppDelegate()
     )
 }
