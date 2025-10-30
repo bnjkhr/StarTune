@@ -21,12 +21,28 @@ class FavoritesService {
         print("Adding song to favorites: \(song.title)")
 
         do {
-            // Apple Music verwendet Ratings für "Favoriten"
-            // .like = Liked/Favorited, .dislike = Disliked
-            _ = try await MCatalog.addRating(for: song, rating: .like)
+            // Methode 1: Versuche MCatalog.favorite (empfohlene Methode)
+            do {
+                let success = try await MCatalog.favorite(song: song)
+                if success {
+                    print("✅ Successfully added '\(song.title)' to favorites")
+                    return true
+                } else {
+                    print("⚠️ Favorite API returned false, trying rating method")
+                }
+            } catch {
+                print("⚠️ Favorite API failed, trying rating method: \(error.localizedDescription)")
+            }
 
-            print("✅ Successfully added '\(song.title)' to favorites")
-            return true
+            // Methode 2: Fallback - Versuche Rating zu setzen
+            do {
+                _ = try await MCatalog.addRating(for: song, rating: .like)
+                print("✅ Successfully added '\(song.title)' to favorites via rating")
+                return true
+            } catch {
+                print("❌ Both favorite methods failed: \(error.localizedDescription)")
+                throw FavoritesError.networkError
+            }
         } catch {
             print("❌ Error adding to favorites: \(error.localizedDescription)")
             throw FavoritesError.networkError
@@ -39,19 +55,17 @@ class FavoritesService {
     /// - Parameter song: Der zu prüfende Song
     /// - Returns: true wenn favorisiert, false wenn nicht
     func isFavorited(song: Song) async throws -> Bool {
+        // MusadoraKit hat keine isFavorite() Methode
+        // Wir können nur das Rating prüfen als Näherungswert
         do {
-            // Rating vom Catalog abrufen
             let rating = try await MCatalog.getRating(for: song)
-
-            // .like = Favorited/Liked
             let isFavorite = (rating.value == .like)
-
-            print(
-                "🔍 Rating check for '\(song.title)': \(rating.value) (is favorite: \(isFavorite))")
+            print("🔍 Rating check for '\(song.title)': \(rating.value) (is favorite: \(isFavorite))")
             return isFavorite
         } catch {
             // Fehler beim Abrufen = nicht favorisiert
             print("⚠️ Could not check rating for '\(song.title)': \(error.localizedDescription)")
+            // Wir geben false zurück, damit der Button korrekt angezeigt wird
             return false
         }
     }
@@ -62,11 +76,16 @@ class FavoritesService {
     /// - Parameter song: Der Song der entfernt werden soll
     /// - Returns: true wenn erfolgreich
     func removeFromFavorites(song: Song) async throws -> Bool {
-        // Rating entfernen (unlove)
+        print("Removing song from favorites: \(song.title)")
+
         do {
+            // MusadoraKit hat keine unfavorite() Methode
+            // Wir können nur das Rating entfernen
             _ = try await MCatalog.deleteRating(for: song)
+            print("✅ Successfully removed rating for '\(song.title)'")
             return true
         } catch {
+            print("❌ Error removing from favorites: \(error.localizedDescription)")
             throw FavoritesError.networkError
         }
     }

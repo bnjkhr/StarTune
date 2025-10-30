@@ -57,6 +57,19 @@ struct MenuBarView: View {
                 hasSetupRun = true
                 appDelegate.performSetupIfNeeded()
             }
+
+            // Listen for favorite requests from MenuBarController
+            NotificationCenter.default.addObserver(
+                forName: .addToFavorites,
+                object: nil,
+                queue: .main
+            ) { [self] _ in
+                self.addToFavorites()
+            }
+        }
+        .onDisappear {
+            // Clean up notification observer
+            NotificationCenter.default.removeObserver(self, name: .addToFavorites, object: nil)
         }
     }
 
