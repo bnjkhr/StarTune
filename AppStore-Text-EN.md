@@ -22,22 +22,16 @@ Your Apple Music favorites manager in the menu bar. See at a glance what's playi
 StarTune brings essential Apple Music features right into your menu bar. With one click, see what's currently playing and add songs to your favorites – without having to open the Music app.
 
 **How it works:**
-• Star glows gold → Music is playing
 • Click the star → Popup shows current song
+• See title, artist, and album at a glance
 • "Add to Favorites" → Song gets favorited
-• Green star → Successfully saved!
+• Done – synced across all your devices
 
 **Why StarTune?**
 
 You're listening to music, an amazing song is playing, and you want to favorite it. Normally, you'd have to open Apple Music, navigate through menus, and click multiple times. With StarTune it's faster: Click the star in the menu bar, see the song info, favorite it – done.
 
 **Features in Detail:**
-
-⭐ **Intelligent Status Display**
-The star in your menu bar shows playback status at a glance:
-- Gold = Apple Music is currently playing
-- Gray = No playback
-- Green flash = Song successfully favorited
 
 🎵 **Now Playing Display**
 Click the star and you instantly see:
@@ -49,6 +43,9 @@ Click the star and you instantly see:
 ⚡ **Quick Favoriting**
 The "Add to Favorites" button in the popup adds the current song to your Apple Music favorites – without having to open the Music app.
 
+⭐ **Menu Bar Convenience**
+A discreet star icon in your menu bar – always available, never in the way. No Dock icon, no distracting windows.
+
 🔗 **Seamless Apple Music Integration**
 StarTune uses Apple's official MusicKit APIs and AppleScript for reliable integration:
 - Instant synchronization across all your devices
@@ -56,14 +53,10 @@ StarTune uses Apple's official MusicKit APIs and AppleScript for reliable integr
 - Works with the native Music.app
 
 🚀 **Menu Bar Design**
-StarTune lives discreetly in your menu bar. No distracting Dock icon – just an elegant star that shows you what's playing at all times.
+StarTune lives discreetly in your menu bar. No distracting Dock icon – just an elegant star, always ready when you need it.
 
-💫 **Visual Feedback**
-The star gives you direct feedback:
-- Gold: Music is playing
-- Gray: No playback
-- Green flash: Song successfully favorited
-- Red flash: Error occurred
+💫 **Instant Confirmation**
+After favoriting, you see immediate confirmation in the popup. Your favorites sync instantly with Apple Music.
 
 **Technical Highlights:**
 
@@ -76,9 +69,9 @@ The star gives you direct feedback:
 **Perfect for:**
 - Music lovers actively curating their favorites
 - Anyone who wants to quickly see what's playing
-- Users who don't want to constantly open the Music app
-- People listening to music while working and favoriting on the side
-- Apple Music power users
+- Users who don't want to constantly switch between apps
+- People listening to music while working and organizing on the side
+- Apple Music power users with large libraries
 
 **What you need:**
 • macOS 14.0 (Sonoma) or newer
@@ -113,10 +106,10 @@ apple music,favorites,menubar,music,songs,star,rating,quick,musickit,productive,
 
 The first version is here with:
 
-• 🌟 Now Playing info directly in the menu bar
+• 🌟 Now Playing info accessible from the menu bar
 • 🎵 Quick favoriting without opening the Music app
-• ⚡ Status display (Gold = playing, Gray = no playback)
-• ✅ Visual feedback on successful favoriting
+• ⚡ Compact popup with all essential info
+• ✅ Instant synchronization with Apple Music
 • 🎨 Dark Mode & Light Mode support
 • 🔒 100% Privacy - zero data collection
 
@@ -136,13 +129,13 @@ Enjoy discovering music!
 Title: "Now Playing at a Glance"
 Shows: Open popup with song info (title, artist, album) and "Add to Favorites" button
 
-**Screenshot 2: Status Display**
-Title: "Always in View"
-Shows: Menu bar with golden star (music playing) vs. gray star (no playback)
+**Screenshot 2: Compact Song Info**
+Title: "All Info in One Place"
+Shows: Popup with complete song details and playback status
 
-**Screenshot 3: Success Feedback**
-Title: "Visual Feedback"
-Shows: Green star after successful favoriting
+**Screenshot 3: Favoriting in Action**
+Title: "One Click to Favorite"
+Shows: Cursor over "Add to Favorites" button
 
 **Screenshot 4: Menu Bar Integration**
 Title: "Discreet & Elegant"
@@ -201,12 +194,12 @@ A: Yes! Since StarTune uses the official Apple Music API, favorites automaticall
 
 ## Marketing Taglines (Alternatives)
 
-- "Your Music. Always in View."
+- "Your Music. Always Within Reach."
 - "Now Playing & Favorites in Your Menu Bar"
-- "Apple Music Favorites Without App Switching"
-- "One Star. All Music Info. Quick Favorites."
+- "Apple Music Without Constant App Switching"
+- "One Click to Your Music Info"
 - "Menu Bar Tool for Music Lovers"
-- "See What's Playing. Favorite What Matters."
+- "Quick Access to Your Songs"
 
 ---
 
