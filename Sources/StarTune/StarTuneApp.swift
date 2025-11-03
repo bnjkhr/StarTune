@@ -12,6 +12,7 @@ import MusicKit
 struct StarTuneApp: App {
     @StateObject private var musicKitManager = MusicKitManager()
     @StateObject private var playbackMonitor = PlaybackMonitor()
+    @State private var hasSetupApp = false
 
     init() {
         // App als Menu Bar Only (kein Dock Icon)
@@ -26,7 +27,10 @@ struct StarTuneApp: App {
                 playbackMonitor: playbackMonitor
             )
             .onAppear {
-                // App Setup beim ersten Öffnen
+                // App Setup beim ersten Öffnen (nur einmal)
+                guard !hasSetupApp else { return }
+                hasSetupApp = true
+
                 Task {
                     await setupApp()
                 }

@@ -73,19 +73,23 @@ class MenuBarController: ObservableObject {
     private func showContextMenu() {
         let menu = NSMenu()
 
-        menu.addItem(NSMenuItem(
+        let aboutItem = NSMenuItem(
             title: "About StarTune",
             action: #selector(showAbout),
             keyEquivalent: ""
-        ))
+        )
+        aboutItem.target = self
+        menu.addItem(aboutItem)
 
         menu.addItem(NSMenuItem.separator())
 
-        menu.addItem(NSMenuItem(
+        let quitItem = NSMenuItem(
             title: "Quit StarTune",
             action: #selector(quit),
             keyEquivalent: "q"
-        ))
+        )
+        quitItem.target = self
+        menu.addItem(quitItem)
 
         statusItem?.menu = menu
         statusItem?.button?.performClick(nil)

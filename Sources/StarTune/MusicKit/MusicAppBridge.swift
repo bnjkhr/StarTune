@@ -38,7 +38,11 @@ class MusicAppBridge: ObservableObject {
         // Prüfe erst ob Music.app läuft - robuster Check
         let checkScript = """
         tell application "System Events"
-            return (name of processes) contains "Music"
+            if (name of processes) contains "Music" then
+                return "true"
+            else
+                return "false"
+            end if
         end tell
         """
 

@@ -26,6 +26,8 @@
 	<true/>
 	<key>NSAppleMusicUsageDescription</key>
 	<string>StarTune needs access to Apple Music to add songs to your favorites.</string>
+	<key>NSAppleEventsUsageDescription</key>
+	<string>StarTune needs to control Music.app to detect the currently playing song and manage playback.</string>
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2025. All rights reserved.</string>
 </dict>

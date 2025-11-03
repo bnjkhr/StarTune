@@ -18,6 +18,68 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.0.1] - 2025-11-03
+
+### Fixed
+
+#### Critical Bug Fixes
+- **FavoritesService Error Handling** - Fixed error handling to properly map MusadoraKitError types instead of collapsing all errors into networkError. Now correctly distinguishes between authorization failures, missing subscriptions, and actual network errors, allowing proper user prompts.
+
+- **Apple Events Authorization** - Added missing NSAppleEventsUsageDescription to Info.plist. Without this, macOS would terminate the app when attempting to send Apple Events to Music.app, breaking all playback detection.
+
+- **Multiple Timer Creation** - Fixed PlaybackMonitor creating multiple concurrent timers on repeated startMonitoring() calls, which caused duplicated AppleScript lookups and catalog searches. Timer creation is now idempotent.
+
+- **Repeated App Setup** - Fixed StarTuneApp calling setupApp() on every menu open, triggering multiple monitoring instances. Added guard to ensure setup runs only once.
+
+- **Boolean Conversion Bug** - Fixed MusicAppBridge incorrectly handling boolean results from System Events check, which caused the app to wipe track info even when Music.app was running. AppleScript now returns explicit "true"/"false" strings.
+
+- **Quit Menu Item** - Fixed "Quit StarTune" menu item not working by properly setting the target property on the NSMenuItem.
+
+#### Documentation Fixes
+- **RUNNING.md** - Replaced hardcoded maintainer-specific absolute path with placeholder path (/path/to/StarTune) to prevent "No such file or directory" errors for other developers.
+
+- **RUNNING.md** - Fixed Intel-only release build path to support both architectures. Added command using `$(swift build --show-bin-path)` and documented both Intel and Apple Silicon paths.
+
+- **SETUP.md** - Added NSAppleEventsUsageDescription to Info.plist configuration instructions, which was previously omitted despite being required for Apple Events automation.
+
+### Technical Details
+
+**Error Mapping (FavoritesService.swift:32, 59)**
+- Added `mapMusadoraKitError()` function to translate MusadoraKitError cases
+- Maps `.notAuthorized` → `FavoritesError.notAuthorized`
+- Maps `.noSubscription` → `FavoritesError.noSubscription`
+- Maps `.notFound` → `FavoritesError.songNotFound`
+- Maps network/URL errors → `FavoritesError.networkError`
+
+**Permission Keys (Info.plist:29)**
+- Added NSAppleEventsUsageDescription with explanation about Music.app control
+- Prevents process termination on first Apple Events send
+
+**Timer Management (PlaybackMonitor.swift:44)**
+- Added guard `timer == nil` before scheduling new timer
+- Prevents concurrent timer instances
+
+**Setup Guard (StarTuneApp.swift:15, 31)**
+- Added `@State hasSetupApp` flag
+- Guards setupApp() call in onAppear
+
+**AppleScript Boolean Fix (MusicAppBridge.swift:40)**
+- Changed script to return explicit "true"/"false" strings
+- Fixed System Events check from boolean to string comparison
+
+**Menu Item Wiring (MenuBarController.swift:81, 91)**
+- Set `.target = self` on About and Quit menu items
+- Ensures action methods are properly triggered
+
+### Impact
+- **High Priority**: Apple Events authorization fix prevents app crashes
+- **High Priority**: Error mapping enables proper user messaging for auth/subscription issues
+- **Medium Priority**: Timer fix prevents resource waste and duplicate operations
+- **Medium Priority**: Boolean fix restores correct playback detection
+- **Low Priority**: Documentation fixes improve developer experience
+
+---
+
 ## [1.0.0] - 2025-10-27
 
 ### Added - Initial Release
@@ -157,6 +219,7 @@ N/A - Initial Release
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| 1.0.1 | 2025-11-03 | Critical bug fixes - Error handling, Apple Events, timer management |
 | 1.0.0 | 2025-10-27 | Initial Release - Core features |
 
 ---
@@ -229,5 +292,5 @@ Migration guides will be added here when needed.
 
 ---
 
-**Last Updated:** 2025-10-27  
+**Last Updated:** 2025-11-03
 **Maintained by:** Ben Kohler

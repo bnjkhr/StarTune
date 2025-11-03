@@ -81,11 +81,15 @@ Wenn du ein neues Xcode-Projekt erstellt hast:
 
    <key>NSAppleMusicUsageDescription</key>
    <string>StarTune needs access to Apple Music to add songs to your favorites.</string>
+
+   <key>NSAppleEventsUsageDescription</key>
+   <string>StarTune needs to control Music.app to detect the currently playing song and manage playback.</string>
    ```
 
    **In Xcode GUI:**
    - "Application is agent (UIElement)" → YES
    - "Privacy - Apple Music Usage Description" → "StarTune needs access..."
+   - "Privacy - Apple Events Sending Usage Description" → "StarTune needs to control Music.app..."
 
 ### 6. Capabilities hinzufügen
 

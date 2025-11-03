@@ -27,6 +27,9 @@ class FavoritesService {
 
             print("✅ Successfully added '\(song.title)' to favorites")
             return true
+        } catch let error as MusadoraKitError {
+            print("❌ Error adding to favorites: \(error.localizedDescription)")
+            throw mapMusadoraKitError(error)
         } catch {
             print("❌ Error adding to favorites: \(error.localizedDescription)")
             throw FavoritesError.networkError
@@ -55,6 +58,8 @@ class FavoritesService {
         do {
             _ = try await MCatalog.deleteRating(for: song)
             return true
+        } catch let error as MusadoraKitError {
+            throw mapMusadoraKitError(error)
         } catch {
             throw FavoritesError.networkError
         }
@@ -67,6 +72,24 @@ class FavoritesService {
     func getFavorites() async throws -> [Song] {
         // TODO: Implementierung für zukünftige Features
         return []
+    }
+
+    // MARK: - Error Mapping
+
+    /// Maps MusadoraKitError to FavoritesError
+    private func mapMusadoraKitError(_ error: MusadoraKitError) -> FavoritesError {
+        switch error {
+        case .notAuthorized:
+            return .notAuthorized
+        case .noSubscription:
+            return .noSubscription
+        case .networkError, .urlError:
+            return .networkError
+        case .notFound:
+            return .songNotFound
+        default:
+            return .networkError
+        }
     }
 }
 

@@ -16,7 +16,7 @@ Quick guide to build and run StarTune.
 ### 1. Build the App
 
 ```bash
-cd /Users/benkohler/Projekte/StarTune
+cd /path/to/StarTune
 swift build
 ```
 
@@ -37,7 +37,7 @@ For a better development experience with GUI support:
 ### Option 1: Open in Xcode directly
 
 ```bash
-cd /Users/benkohler/Projekte/StarTune
+cd /path/to/StarTune
 xed .
 ```
 
@@ -187,7 +187,9 @@ swift build -c release
 
 - Optimized for performance
 - Smaller binary size
-- Binary at: `.build/x86_64-apple-macosx/release/StarTune`
+- Binary at: `$(swift build -c release --show-bin-path)/StarTune`
+  - Intel: `.build/x86_64-apple-macosx/release/StarTune`
+  - Apple Silicon: `.build/arm64-apple-macosx/release/StarTune`
 
 ---
 

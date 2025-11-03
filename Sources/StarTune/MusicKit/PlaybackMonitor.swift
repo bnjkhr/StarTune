@@ -41,6 +41,9 @@ class PlaybackMonitor: ObservableObject {
     // MARK: - Private Helpers
 
     private func startTimer() {
+        // Only create a new timer if one doesn't already exist
+        guard timer == nil else { return }
+
         timer = Timer.scheduledTimer(withTimeInterval: 2.0, repeats: true) { [weak self] _ in
             Task { @MainActor [weak self] in
                 await self?.updatePlaybackState()
