@@ -13,9 +13,9 @@ import SwiftUI
 struct MenuBarView: View {
     @ObservedObject var musicKitManager: MusicKitManager
     @ObservedObject var playbackMonitor: PlaybackMonitor
-    
+
     let appDelegate: AppDelegate
-    
+
     @State private var favoritesService = FavoritesService()
     @State private var isProcessing = false
     @State private var hasSetupRun = false
@@ -44,7 +44,7 @@ struct MenuBarView: View {
             Divider()
 
             // Quit Button
-            Button("Quit StarTune") {
+            Button(String(localized: "Quit StarTune")) {
                 NSApplication.shared.terminate(nil)
             }
             .keyboardShortcut("q", modifiers: .command)
@@ -77,11 +77,11 @@ struct MenuBarView: View {
 
     private var authorizationSection: some View {
         VStack(alignment: .leading, spacing: 8) {
-            Text("Authorization Required")
+            Text(String(localized: "Authorization Required"))
                 .font(.subheadline)
                 .foregroundColor(.secondary)
 
-            Button("Allow Access to Apple Music") {
+            Button(String(localized: "Allow Access to Apple Music")) {
                 Task {
                     await musicKitManager.requestAuthorization()
                 }
@@ -91,7 +91,7 @@ struct MenuBarView: View {
 
     private var currentlyPlayingSection: some View {
         VStack(alignment: .leading, spacing: 8) {
-            Text("Now Playing")
+            Text(String(localized: "Now Playing"))
                 .font(.caption)
                 .foregroundColor(.secondary)
 
@@ -114,7 +114,7 @@ struct MenuBarView: View {
                     }
                 }
             } else {
-                Text("No music playing")
+                Text(String(localized: "No music playing"))
                     .font(.body)
                     .foregroundColor(.secondary)
             }
@@ -125,7 +125,7 @@ struct MenuBarView: View {
                     .fill(playbackMonitor.isPlaying ? Color.green : Color.gray)
                     .frame(width: 8, height: 8)
 
-                Text(playbackMonitor.isPlaying ? "Playing" : "Paused")
+                Text(String(localized: playbackMonitor.isPlaying ? "Playing" : "Paused"))
                     .font(.caption2)
                     .foregroundColor(.secondary)
             }
@@ -141,7 +141,7 @@ struct MenuBarView: View {
                     HStack {
                         Image(systemName: "star.fill")
                             .foregroundColor(.yellow)
-                        Text("Remove from Favorites")
+                        Text(String(localized: "Remove from Favorites"))
                     }
                     .frame(maxWidth: .infinity)
                 }
@@ -152,7 +152,7 @@ struct MenuBarView: View {
                 Button(action: addToFavorites) {
                     HStack {
                         Image(systemName: "star")
-                        Text("Add to Favorites")
+                        Text(String(localized: "Add to Favorites"))
                     }
                     .frame(maxWidth: .infinity)
                 }

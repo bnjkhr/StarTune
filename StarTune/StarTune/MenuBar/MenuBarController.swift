@@ -6,8 +6,8 @@
 //
 
 import AppKit
-import SwiftUI
 import Combine
+import SwiftUI
 
 /// Controller für das Menu Bar Icon und Interaktionen
 class MenuBarController: ObservableObject {
@@ -36,14 +36,14 @@ class MenuBarController: ObservableObject {
         // SF Symbol Icon
         button.image = NSImage(
             systemSymbolName: "star.fill",
-            accessibilityDescription: "Favorite Current Song"
+            accessibilityDescription: String(localized: "Favorite Current Song")
         )
 
         // Initial: Grau (nicht playing)
         button.contentTintColor = .systemGray
 
         // Tooltip
-        button.toolTip = "StarTune - Click to favorite current song"
+        button.toolTip = String(localized: "StarTune - Click to favorite current song")
 
         // Action beim Klick
         button.action = #selector(menuBarButtonClicked)
@@ -78,23 +78,25 @@ class MenuBarController: ObservableObject {
     private func showContextMenu() {
         let menu = NSMenu()
 
-        menu.addItem(NSMenuItem(
-            title: "About StarTune",
-            action: #selector(showAbout),
-            keyEquivalent: ""
-        ))
+        menu.addItem(
+            NSMenuItem(
+                title: String(localized: "About StarTune"),
+                action: #selector(showAbout),
+                keyEquivalent: ""
+            ))
 
         menu.addItem(NSMenuItem.separator())
 
-        menu.addItem(NSMenuItem(
-            title: "Quit StarTune",
-            action: #selector(quit),
-            keyEquivalent: "q"
-        ))
+        menu.addItem(
+            NSMenuItem(
+                title: String(localized: "Quit StarTune"),
+                action: #selector(quit),
+                keyEquivalent: "q"
+            ))
 
         statusItem?.menu = menu
         statusItem?.button?.performClick(nil)
-        statusItem?.menu = nil // Menu nach Anzeige wieder entfernen
+        statusItem?.menu = nil  // Menu nach Anzeige wieder entfernen
     }
 
     @objc private func showAbout() {
@@ -117,9 +119,10 @@ class MenuBarController: ObservableObject {
 
             // Tooltip aktualisieren
             if isPlaying {
-                self?.statusItem?.button?.toolTip = "Click to favorite current song"
+                self?.statusItem?.button?.toolTip = String(
+                    localized: "Click to favorite current song")
             } else {
-                self?.statusItem?.button?.toolTip = "No music playing"
+                self?.statusItem?.button?.toolTip = String(localized: "No music playing")
             }
         }
     }

@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:StarTune-Xcode}",
+            "name": "Debug StarTune",
+            "target": "StarTune",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug StarTune"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:StarTune-Xcode}",
+            "name": "Release StarTune",
+            "target": "StarTune",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release StarTune"
+        }
+    ]
+}

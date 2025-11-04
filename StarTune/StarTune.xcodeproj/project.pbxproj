@@ -105,11 +105,12 @@
 				};
 			};
 			buildConfigurationList = AD0F134D2EAC190900D27FA5 /* Build configuration list for PBXProject "StarTune" */;
-			developmentRegion = en;
+			developmentRegion = de;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				de,
 			);
 			mainGroup = AD0F13492EAC190900D27FA5;
 			minimizedProjectReferenceProxies = 1;
