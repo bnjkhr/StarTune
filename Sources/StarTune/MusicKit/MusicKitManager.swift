@@ -42,14 +42,24 @@ class MusicKitManager: ObservableObject {
         isAuthorized = (currentStatus == .authorized)
     }
 
-    /// Prüft ob User ein Apple Music Abo hat
+    /// Prüft ob User ein Apple Music Abo hat mit Retry-Logik
     private func checkSubscriptionStatus() async {
         do {
-            // MusicSubscription Status abfragen
-            let subscription = try await MusicSubscription.current
+            // MusicSubscription Status abfragen mit Retry-Logik
+            let subscription = try await RetryManager.shared.retryNetwork(
+                operationName: "checkSubscription"
+            ) {
+                try await MusicSubscription.current
+            }
             hasAppleMusicSubscription = subscription.canPlayCatalogContent
         } catch {
-            print("Error checking subscription status: \(error.localizedDescription)")
+            let appError = AppError.from(error)
+            recordError(
+                appError,
+                operation: "checkSubscription",
+                userAction: "check_apple_music_subscription"
+            )
+            print("Error checking subscription status: \(appError.message)")
             hasAppleMusicSubscription = false
         }
     }

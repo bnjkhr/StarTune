@@ -3,6 +3,7 @@
 //  StarTune
 //
 //  Created on 2025-10-24.
+//  Updated: 2025-11-06 - Added typed error handling with retry logic
 //
 
 import Foundation
@@ -14,25 +15,55 @@ class FavoritesService {
 
     // MARK: - Add to Favorites
 
-    /// Fügt einen Song zu Favorites hinzu
+    /// Fügt einen Song zu Favorites hinzu mit automatischer Retry-Logik
     /// - Parameter song: Der Song der favorisiert werden soll
     /// - Returns: true wenn erfolgreich, false bei Fehler
     func addToFavorites(song: Song) async throws -> Bool {
         print("Adding song to favorites: \(song.title)")
 
+        // Use retry logic for network operations
         do {
-            // Apple Music verwendet Ratings für "Favoriten"
-            // .like = Liked/Favorited, .dislike = Disliked
-            _ = try await MCatalog.addRating(for: song, rating: .like)
+            let result = try await RetryManager.shared.retryCritical(
+                operationName: "addToFavorites"
+            ) {
+                // Apple Music verwendet Ratings für "Favoriten"
+                // .like = Liked/Favorited, .dislike = Disliked
+                try await MCatalog.addRating(for: song, rating: .like)
+            }
 
             print("✅ Successfully added '\(song.title)' to favorites")
+
+            // Record success for analytics
+            await ErrorAnalytics.shared.recordResolution(
+                FavoritesError.networkError,
+                method: .automatic
+            )
+
             return true
         } catch let error as MusadoraKitError {
-            print("❌ Error adding to favorites: \(error.localizedDescription)")
-            throw mapMusadoraKitError(error)
+            let appError = mapMusadoraKitError(error)
+            print("❌ Error adding to favorites: \(appError.message)")
+
+            // Record error for analytics
+            recordError(
+                appError,
+                operation: "addToFavorites",
+                userAction: "add_song_to_favorites"
+            )
+
+            throw appError
         } catch {
-            print("❌ Error adding to favorites: \(error.localizedDescription)")
-            throw FavoritesError.networkError
+            let appError = AppError.from(error)
+            print("❌ Error adding to favorites: \(appError.message)")
+
+            // Record error for analytics
+            recordError(
+                appError,
+                operation: "addToFavorites",
+                userAction: "add_song_to_favorites"
+            )
+
+            throw appError
         }
     }
 
@@ -50,18 +81,36 @@ class FavoritesService {
 
     // MARK: - Remove from Favorites
 
-    /// Entfernt einen Song aus Favorites
+    /// Entfernt einen Song aus Favorites mit automatischer Retry-Logik
     /// - Parameter song: Der Song der entfernt werden soll
     /// - Returns: true wenn erfolgreich
     func removeFromFavorites(song: Song) async throws -> Bool {
-        // Rating entfernen (unlove)
+        // Rating entfernen (unlove) mit Retry-Logik
         do {
-            _ = try await MCatalog.deleteRating(for: song)
+            _ = try await RetryManager.shared.retryNetwork(
+                operationName: "removeFromFavorites"
+            ) {
+                try await MCatalog.deleteRating(for: song)
+            }
+
+            print("✅ Successfully removed '\(song.title)' from favorites")
             return true
         } catch let error as MusadoraKitError {
-            throw mapMusadoraKitError(error)
+            let appError = mapMusadoraKitError(error)
+            recordError(
+                appError,
+                operation: "removeFromFavorites",
+                userAction: "remove_song_from_favorites"
+            )
+            throw appError
         } catch {
-            throw FavoritesError.networkError
+            let appError = AppError.from(error)
+            recordError(
+                appError,
+                operation: "removeFromFavorites",
+                userAction: "remove_song_from_favorites"
+            )
+            throw appError
         }
     }
 
@@ -76,25 +125,27 @@ class FavoritesService {
 
     // MARK: - Error Mapping
 
-    /// Maps MusadoraKitError to FavoritesError
-    private func mapMusadoraKitError(_ error: MusadoraKitError) -> FavoritesError {
+    /// Maps MusadoraKitError to typed AppError with recovery suggestions
+    private func mapMusadoraKitError(_ error: MusadoraKitError) -> AppError {
         switch error {
         case .notAuthorized:
-            return .notAuthorized
+            return .authorizationError(.notAuthorized)
         case .noSubscription:
-            return .noSubscription
+            return .authorizationError(.noSubscription)
         case .networkError, .urlError:
-            return .networkError
+            return .networkError(.requestFailed(error))
         case .notFound:
-            return .songNotFound
+            return .resourceError(.notFound("song"))
         default:
-            return .networkError
+            return .networkError(.requestFailed(error))
         }
     }
 }
 
-// MARK: - Error Handling
+// MARK: - Legacy Error Handling (Deprecated)
 
+/// Legacy error type - Use AppError instead
+@available(*, deprecated, message: "Use AppError from ErrorHandling module instead")
 enum FavoritesError: LocalizedError {
     case notAuthorized
     case noSubscription

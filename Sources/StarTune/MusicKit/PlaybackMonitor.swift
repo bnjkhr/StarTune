@@ -65,7 +65,7 @@ class PlaybackMonitor: ObservableObject {
         }
     }
 
-    /// Sucht den Song im MusicKit Catalog
+    /// Sucht den Song im MusicKit Catalog mit Retry-Logik
     private func findSongInCatalog(trackName: String, artist: String?) async {
         do {
             // Suchanfrage erstellen
@@ -74,10 +74,14 @@ class PlaybackMonitor: ObservableObject {
                 searchTerm += " \(artist)"
             }
 
-            var searchRequest = MusicCatalogSearchRequest(term: searchTerm, types: [Song.self])
-            searchRequest.limit = 5
-
-            let response = try await searchRequest.response()
+            // Use quick retry logic for catalog search (2 attempts, 0.5s delay)
+            let response = try await RetryManager.shared.retryQuick(
+                operationName: "catalogSearch"
+            ) {
+                var searchRequest = MusicCatalogSearchRequest(term: searchTerm, types: [Song.self])
+                searchRequest.limit = 5
+                return try await searchRequest.response()
+            }
 
             // Ersten passenden Song nehmen
             if let firstSong = response.songs.first {
@@ -88,7 +92,16 @@ class PlaybackMonitor: ObservableObject {
                 currentSong = nil
             }
         } catch {
-            print("❌ Error searching for song: \(error.localizedDescription)")
+            let appError = AppError.from(error)
+
+            // Record error for analytics but don't show to user (background operation)
+            recordError(
+                appError,
+                operation: "catalogSearch",
+                userAction: "background_playback_monitoring"
+            )
+
+            print("❌ Error searching for song: \(appError.message)")
             currentSong = nil
         }
     }
