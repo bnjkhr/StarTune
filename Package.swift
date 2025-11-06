@@ -28,6 +28,11 @@ let package = Package(
                 "MusadoraKit"
             ],
             path: "Sources/StarTune"
+        ),
+        .testTarget(
+            name: "StarTuneTests",
+            dependencies: ["StarTune"],
+            path: "Tests/StarTuneTests"
         )
     ]
 )
