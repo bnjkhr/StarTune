@@ -29,5 +29,7 @@ let package = Package(
             ],
             path: "Sources/StarTune"
         )
+        // Note: Tests are managed through Xcode project (StarTune.xcodeproj)
+        // The test files in Tests/StarTuneTests are part of the Xcode test target
     ]
 )
