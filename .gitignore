@@ -42,6 +42,7 @@ Package.pins
 Package.resolved
 *.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/
 .swiftpm/
+.build/
 
 # CocoaPods
 #
