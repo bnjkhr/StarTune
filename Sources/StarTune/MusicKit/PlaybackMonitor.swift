@@ -2,98 +2,139 @@
 //  PlaybackMonitor.swift
 //  StarTune
 //
-//  Created on 2025-10-24.
+//  Reactive playback monitoring using Combine and event-driven architecture
+//  Replaces timer-based polling with NSDistributedNotificationCenter
 //
 
 import Foundation
 import MusicKit
 import Combine
 
-/// Überwacht den Apple Music Playback Status via Music.app
+/// Reactive playback monitor that combines Music.app events with MusicKit catalog
 @MainActor
 class PlaybackMonitor: ObservableObject {
     @Published var currentSong: Song?
     @Published var isPlaying = false
     @Published var playbackTime: TimeInterval = 0
 
-    private var timer: Timer?
-    private let musicBridge = MusicAppBridge()
+    // Dependencies
+    private let musicObserver = MusicObserver()
+    private var cancellables = Set<AnyCancellable>()
 
-    // MARK: - Monitoring
+    // Track the last search to avoid duplicate searches
+    private var lastSearchedTrack: MusicObserver.TrackInfo?
 
-    /// Startet das Monitoring des Playback Status
-    func startMonitoring() async {
-        print("🎵 Starting playback monitoring...")
+    // MARK: - Lifecycle
 
-        // Timer für regelmäßige Updates (alle 2 Sekunden)
-        startTimer()
-
-        // Initialen Status laden
-        await updatePlaybackState()
+    init() {
+        setupReactiveBindings()
     }
 
-    /// Stoppt das Monitoring
-    func stopMonitoring() {
-        timer?.invalidate()
-        timer = nil
+    deinit {
+        print("🧹 PlaybackMonitor deallocated - all publishers cancelled")
     }
 
-    // MARK: - Private Helpers
+    // MARK: - Reactive Setup
 
-    private func startTimer() {
-        // Only create a new timer if one doesn't already exist
-        guard timer == nil else { return }
+    private func setupReactiveBindings() {
+        // Bind isPlaying state from MusicObserver
+        musicObserver.$isPlaying
+            .assign(to: &$isPlaying)
 
-        timer = Timer.scheduledTimer(withTimeInterval: 2.0, repeats: true) { [weak self] _ in
-            Task { @MainActor [weak self] in
-                await self?.updatePlaybackState()
+        // Bind playback time from MusicObserver
+        musicObserver.$playbackTime
+            .assign(to: &$playbackTime)
+
+        // React to track changes with debouncing
+        musicObserver.$currentTrack
+            .compactMap { $0 } // Filter out nil values
+            .removeDuplicates() // Only process actual changes
+            .debounce(for: .milliseconds(300), scheduler: DispatchQueue.main) // Debounce rapid changes
+            .sink { [weak self] trackInfo in
+                Task { [weak self] in
+                    await self?.searchMusicKitCatalog(for: trackInfo)
+                }
             }
-        }
+            .store(in: &cancellables)
+
+        // Clear song when playback stops
+        musicObserver.$isPlaying
+            .filter { !$0 } // Only when stopped
+            .sink { [weak self] _ in
+                self?.currentSong = nil
+                self?.lastSearchedTrack = nil
+            }
+            .store(in: &cancellables)
+
+        print("🎵 Reactive playback monitoring configured")
     }
 
-    private func updatePlaybackState() async {
-        // Status aus Music.app via AppleScript abrufen
-        musicBridge.updatePlaybackState()
+    // MARK: - MusicKit Integration
 
-        isPlaying = musicBridge.isPlaying
-
-        // Wenn etwas spielt, versuche den Song in MusicKit zu finden
-        if isPlaying, let trackName = musicBridge.currentTrackName {
-            await findSongInCatalog(trackName: trackName, artist: musicBridge.currentArtist)
-        } else {
-            currentSong = nil
+    private func searchMusicKitCatalog(for trackInfo: MusicObserver.TrackInfo) async {
+        // Avoid duplicate searches for the same track
+        guard lastSearchedTrack != trackInfo else {
+            return
         }
-    }
+        lastSearchedTrack = trackInfo
 
-    /// Sucht den Song im MusicKit Catalog
-    private func findSongInCatalog(trackName: String, artist: String?) async {
         do {
-            // Suchanfrage erstellen
-            var searchTerm = trackName
-            if let artist = artist {
-                searchTerm += " \(artist)"
-            }
+            // Build search query
+            let searchTerm = "\(trackInfo.name) \(trackInfo.artist)"
 
-            var searchRequest = MusicCatalogSearchRequest(term: searchTerm, types: [Song.self])
+            var searchRequest = MusicCatalogSearchRequest(
+                term: searchTerm,
+                types: [Song.self]
+            )
             searchRequest.limit = 5
 
+            // Execute search
             let response = try await searchRequest.response()
 
-            // Ersten passenden Song nehmen
-            if let firstSong = response.songs.first {
-                currentSong = firstSong
-                print("✅ Found song: \(firstSong.title) by \(firstSong.artistName)")
+            // Find best match
+            if let song = findBestMatch(songs: response.songs, trackInfo: trackInfo) {
+                currentSong = song
+                print("✅ Found MusicKit song: \(song.title) by \(song.artistName)")
             } else {
-                print("⚠️ No song found for: \(searchTerm)")
+                print("⚠️ No MusicKit match for: \(trackInfo.displayString)")
                 currentSong = nil
             }
         } catch {
-            print("❌ Error searching for song: \(error.localizedDescription)")
+            print("❌ MusicKit search error: \(error.localizedDescription)")
             currentSong = nil
         }
     }
 
-    // MARK: - Public Helpers
+    // MARK: - Matching Logic
+
+    private func findBestMatch(
+        songs: MusicItemCollection<Song>,
+        trackInfo: MusicObserver.TrackInfo
+    ) -> Song? {
+        // Try exact match first
+        let exactMatch = songs.first { song in
+            song.title.lowercased() == trackInfo.name.lowercased() &&
+            song.artistName.lowercased() == trackInfo.artist.lowercased()
+        }
+
+        // Fallback to first result if no exact match
+        return exactMatch ?? songs.first
+    }
+
+    // MARK: - Public API
+
+    /// Start monitoring (automatically starts via init now)
+    func startMonitoring() async {
+        print("🎵 Event-driven playback monitoring active (no timer needed!)")
+        // No timer needed! Everything is event-driven via MusicObserver
+    }
+
+    /// Stop monitoring
+    func stopMonitoring() {
+        cancellables.removeAll()
+        lastSearchedTrack = nil
+        print("⏹️ Playback monitoring stopped - all subscriptions cancelled")
+    }
 
     /// Formatierte Song-Info für Display
     var currentSongInfo: String? {

@@ -1,24 +1,26 @@
 {
     "configurations": [
         {
-            "type": "swift",
+            "type": "lldb",
             "request": "launch",
             "args": [],
             "cwd": "${workspaceFolder:StarTune-Xcode}",
             "name": "Debug StarTune",
             "target": "StarTune",
             "configuration": "debug",
-            "preLaunchTask": "swift: Build Debug StarTune"
+            "preLaunchTask": "swift: Build Debug StarTune",
+            "program": "${workspaceFolder:StarTune-Xcode}/.build/debug/StarTune"
         },
         {
-            "type": "swift",
+            "type": "lldb",
             "request": "launch",
             "args": [],
             "cwd": "${workspaceFolder:StarTune-Xcode}",
             "name": "Release StarTune",
             "target": "StarTune",
             "configuration": "release",
-            "preLaunchTask": "swift: Build Release StarTune"
+            "preLaunchTask": "swift: Build Release StarTune",
+            "program": "${workspaceFolder:StarTune-Xcode}/.build/release/StarTune"
         }
     ]
 }

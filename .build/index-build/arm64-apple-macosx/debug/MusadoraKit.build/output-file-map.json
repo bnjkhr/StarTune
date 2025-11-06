@@ -1,0 +1,1020 @@
+{
+  "": {
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/master.swiftdeps"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/100 Best Albums/HundredBestAlbum.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/HundredBestAlbum.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/HundredBestAlbum.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/HundredBestAlbum~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/HundredBestAlbum.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/HundredBestAlbum.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/100 Best Albums/HundredBestAlbumRequest.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/HundredBestAlbumRequest.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/HundredBestAlbumRequest.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/HundredBestAlbumRequest~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/HundredBestAlbumRequest.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/HundredBestAlbumRequest.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/100 Best Albums/HundredBestAlbums.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/HundredBestAlbums.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/HundredBestAlbums.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/HundredBestAlbums~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/HundredBestAlbums.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/HundredBestAlbums.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Add Resources/CreatePlaylist.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CreatePlaylist.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CreatePlaylist.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CreatePlaylist~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CreatePlaylist.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CreatePlaylist.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Add Resources/LibraryPlaylistCreationRequest.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibraryPlaylistCreationRequest.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibraryPlaylistCreationRequest.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibraryPlaylistCreationRequest~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibraryPlaylistCreationRequest.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibraryPlaylistCreationRequest.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Add Resources/MAddResourcesRequest.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MAddResourcesRequest.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MAddResourcesRequest.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MAddResourcesRequest~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MAddResourcesRequest.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MAddResourcesRequest.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Catalog/CatalogAlbum.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogAlbum.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogAlbum.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogAlbum~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogAlbum.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogAlbum.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Catalog/CatalogArtist.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogArtist.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogArtist.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogArtist~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogArtist.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogArtist.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Catalog/CatalogChart.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogChart.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogChart.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogChart~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogChart.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogChart.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Catalog/CatalogChart/ChartItemCollection.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/ChartItemCollection.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/ChartItemCollection.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/ChartItemCollection~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/ChartItemCollection.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/ChartItemCollection.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Catalog/CatalogChart/MChartItem.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MChartItem.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MChartItem.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MChartItem~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MChartItem.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MChartItem.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Catalog/CatalogChart/MChartRequest.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MChartRequest.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MChartRequest.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MChartRequest~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MChartRequest.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MChartRequest.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Catalog/CatalogChart/MChartResponse.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MChartResponse.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MChartResponse.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MChartResponse~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MChartResponse.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MChartResponse.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Catalog/CatalogChart/MCharts.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MCharts.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MCharts.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MCharts~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MCharts.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MCharts.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Catalog/CatalogCurator.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogCurator.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogCurator.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogCurator~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogCurator.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogCurator.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Catalog/CatalogGenre.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogGenre.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogGenre.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogGenre~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogGenre.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogGenre.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Catalog/CatalogMusicVideo.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogMusicVideo.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogMusicVideo.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogMusicVideo~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogMusicVideo.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogMusicVideo.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Catalog/CatalogPlaylist.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogPlaylist.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogPlaylist.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogPlaylist~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogPlaylist.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogPlaylist.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Catalog/CatalogRadioShow.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogRadioShow.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogRadioShow.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogRadioShow~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogRadioShow.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogRadioShow.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Catalog/CatalogRecordLabel.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogRecordLabel.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogRecordLabel.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogRecordLabel~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogRecordLabel.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogRecordLabel.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Catalog/CatalogSearch.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogSearch.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogSearch.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogSearch~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogSearch.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogSearch.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Catalog/CatalogSong.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogSong.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogSong.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogSong~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogSong.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogSong.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Catalog/CatalogStation.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogStation.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogStation.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogStation~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogStation.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogStation.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Catalog/CatalogSuggestions/MCatalogSuggestionsRequest.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MCatalogSuggestionsRequest.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MCatalogSuggestionsRequest.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MCatalogSuggestionsRequest~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MCatalogSuggestionsRequest.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MCatalogSuggestionsRequest.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Catalog/CatalogSuggestions/MCatalogSuggestionsResponse.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MCatalogSuggestionsResponse.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MCatalogSuggestionsResponse.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MCatalogSuggestionsResponse~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MCatalogSuggestionsResponse.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MCatalogSuggestionsResponse.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Catalog/CatalogSuggestions/MusicCatalogSearchable.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicCatalogSearchable.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicCatalogSearchable.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicCatalogSearchable~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicCatalogSearchable.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicCatalogSearchable.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Catalog/CatalogSuggestions/SearchSuggestionItem.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/SearchSuggestionItem.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/SearchSuggestionItem.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/SearchSuggestionItem~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/SearchSuggestionItem.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/SearchSuggestionItem.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Catalog/CatalogSuggestions/SuggestionKind.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/SuggestionKind.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/SuggestionKind.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/SuggestionKind~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/SuggestionKind.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/SuggestionKind.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Catalog/CatalogSuggestions/Suggestions.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Suggestions.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Suggestions.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Suggestions~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Suggestions.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Suggestions.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Catalog/CatalogSuggestions/SuggestionsKind.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/SuggestionsKind.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/SuggestionsKind.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/SuggestionsKind~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/SuggestionsKind.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/SuggestionsKind.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Catalog/CatalogSuggestions/TermSuggestion.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/TermSuggestion.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/TermSuggestion.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/TermSuggestion~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/TermSuggestion.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/TermSuggestion.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Catalog/CatalogSuggestions/TopResultsSuggestion.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/TopResultsSuggestion.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/TopResultsSuggestion.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/TopResultsSuggestion~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/TopResultsSuggestion.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/TopResultsSuggestion.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Catalog/MCatalog.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MCatalog.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MCatalog.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MCatalog~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MCatalog.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MCatalog.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Catalog/MCatalogSearchType.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MCatalogSearchType.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MCatalogSearchType.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MCatalogSearchType~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MCatalogSearchType.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MCatalogSearchType.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Equivalents/CatalogCleanEquivalent.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogCleanEquivalent.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogCleanEquivalent.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogCleanEquivalent~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogCleanEquivalent.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogCleanEquivalent.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Equivalents/CatalogCleanEquivalents.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogCleanEquivalents.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogCleanEquivalents.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogCleanEquivalents~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogCleanEquivalents.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogCleanEquivalents.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Equivalents/CatalogEquivalent.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogEquivalent.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogEquivalent.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogEquivalent~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogEquivalent.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogEquivalent.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Equivalents/CatalogEquivalents.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogEquivalents.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogEquivalents.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogEquivalents~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogEquivalents.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogEquivalents.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Equivalents/EquivalentMusicItemType.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/EquivalentMusicItemType.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/EquivalentMusicItemType.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/EquivalentMusicItemType~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/EquivalentMusicItemType.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/EquivalentMusicItemType.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Equivalents/EquivalentRequestable.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/EquivalentRequestable.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/EquivalentRequestable.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/EquivalentRequestable~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/EquivalentRequestable.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/EquivalentRequestable.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Extension/Array.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Array.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Array.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Array~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Array.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Array.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Extension/Data.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Data.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Data.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Data~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Data.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Data.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Favorites/FavoriteArtist.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/FavoriteArtist.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/FavoriteArtist.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/FavoriteArtist~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/FavoriteArtist.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/FavoriteArtist.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Favorites/MFavoriteRequestType.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MFavoriteRequestType.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MFavoriteRequestType.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MFavoriteRequestType~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MFavoriteRequestType.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MFavoriteRequestType.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Favorites/MFavoritesRequest.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MFavoritesRequest.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MFavoritesRequest.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MFavoritesRequest~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MFavoritesRequest.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MFavoritesRequest.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/History/MHistory.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MHistory.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MHistory.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MHistory~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MHistory.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MHistory.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/History/MHistoryEndpoints.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MHistoryEndpoints.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MHistoryEndpoints.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MHistoryEndpoints~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MHistoryEndpoints.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MHistoryEndpoints.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/History/MHistoryRequest.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MHistoryRequest.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MHistoryRequest.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MHistoryRequest~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MHistoryRequest.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MHistoryRequest.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/History/MHistoryResponse.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MHistoryResponse.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MHistoryResponse.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MHistoryResponse~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MHistoryResponse.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MHistoryResponse.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/History/MusicRecentlyAddedRequest.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicRecentlyAddedRequest.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicRecentlyAddedRequest.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicRecentlyAddedRequest~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicRecentlyAddedRequest.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicRecentlyAddedRequest.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/History/RecentlyPlayed.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/RecentlyPlayed.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/RecentlyPlayed.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/RecentlyPlayed~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/RecentlyPlayed.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/RecentlyPlayed.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Library/LibraryAlbum.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibraryAlbum.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibraryAlbum.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibraryAlbum~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibraryAlbum.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibraryAlbum.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Library/LibraryArtist.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibraryArtist.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibraryArtist.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibraryArtist~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibraryArtist.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibraryArtist.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Library/LibraryCatalog.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibraryCatalog.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibraryCatalog.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibraryCatalog~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibraryCatalog.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibraryCatalog.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Library/LibraryGenre.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibraryGenre.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibraryGenre.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibraryGenre~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibraryGenre.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibraryGenre.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Library/LibraryPlaylist.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibraryPlaylist.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibraryPlaylist.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibraryPlaylist~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibraryPlaylist.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibraryPlaylist.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Library/LibrarySearch.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibrarySearch.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibrarySearch.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibrarySearch~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibrarySearch.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibrarySearch.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Library/LibrarySong.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibrarySong.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibrarySong.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibrarySong~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibrarySong.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibrarySong.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Library/MLibrary.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MLibrary.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MLibrary.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MLibrary~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MLibrary.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MLibrary.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Library/MLibraryPlaylist.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MLibraryPlaylist.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MLibraryPlaylist.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MLibraryPlaylist~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MLibraryPlaylist.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MLibraryPlaylist.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Library/MusicLibrarySearchable.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicLibrarySearchable.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicLibrarySearchable.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicLibrarySearchable~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicLibrarySearchable.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicLibrarySearchable.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Library/Playlist Folder Request/LibraryPlaylistFolder.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibraryPlaylistFolder.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibraryPlaylistFolder.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibraryPlaylistFolder~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibraryPlaylistFolder.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibraryPlaylistFolder.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Library/Playlist Folder Request/MLibraryPlaylistFolder.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MLibraryPlaylistFolder.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MLibraryPlaylistFolder.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MLibraryPlaylistFolder~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MLibraryPlaylistFolder.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MLibraryPlaylistFolder.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Library/Resource Request/FilterableLibraryItem.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/FilterableLibraryItem.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/FilterableLibraryItem.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/FilterableLibraryItem~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/FilterableLibraryItem.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/FilterableLibraryItem.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Library/Resource Request/LibraryMusicItemType.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibraryMusicItemType.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibraryMusicItemType.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibraryMusicItemType~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibraryMusicItemType.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibraryMusicItemType.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Library/Resource Request/MLibraryResourceRequest.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MLibraryResourceRequest.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MLibraryResourceRequest.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MLibraryResourceRequest~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MLibraryResourceRequest.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MLibraryResourceRequest.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Library/Resource Request/MLibraryResourceResponse.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MLibraryResourceResponse.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MLibraryResourceResponse.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MLibraryResourceResponse~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MLibraryResourceResponse.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MLibraryResourceResponse.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Library/Search Request/MLibrarySearchRequest.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MLibrarySearchRequest.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MLibrarySearchRequest.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MLibrarySearchRequest~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MLibrarySearchRequest.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MLibrarySearchRequest.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Library/Search Request/MusadoraLibrarySearchResponse.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusadoraLibrarySearchResponse.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusadoraLibrarySearchResponse.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusadoraLibrarySearchResponse~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusadoraLibrarySearchResponse.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusadoraLibrarySearchResponse.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Library/Search Request/MusicLibrarySearchResponseResults.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicLibrarySearchResponseResults.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicLibrarySearchResponseResults.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicLibrarySearchResponseResults~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicLibrarySearchResponseResults.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicLibrarySearchResponseResults.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Library/Search Request/MusicLibrarySearchType.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicLibrarySearchType.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicLibrarySearchType.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicLibrarySearchType~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicLibrarySearchType.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicLibrarySearchType.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Models/AppleMusicURLComponents.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/AppleMusicURLComponents.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/AppleMusicURLComponents.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/AppleMusicURLComponents~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/AppleMusicURLComponents.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/AppleMusicURLComponents.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Models/MusadoraKitError.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusadoraKitError.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusadoraKitError.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusadoraKitError~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusadoraKitError.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusadoraKitError.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Models/RelationshipItem.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/RelationshipItem.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/RelationshipItem.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/RelationshipItem~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/RelationshipItem.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/RelationshipItem.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Models/SongsForAlbums.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/SongsForAlbums.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/SongsForAlbums.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/SongsForAlbums~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/SongsForAlbums.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/SongsForAlbums.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Models/SongsForArtists.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/SongsForArtists.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/SongsForArtists.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/SongsForArtists~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/SongsForArtists.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/SongsForArtists.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Models/SongsForGenres.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/SongsForGenres.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/SongsForGenres.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/SongsForGenres~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/SongsForGenres.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/SongsForGenres.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Models/SongsForPlaylists.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/SongsForPlaylists.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/SongsForPlaylists.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/SongsForPlaylists~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/SongsForPlaylists.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/SongsForPlaylists.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Models/StationGenre.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/StationGenre.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/StationGenre.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/StationGenre~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/StationGenre.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/StationGenre.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Models/UserMusicItem.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/UserMusicItem.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/UserMusicItem.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/UserMusicItem~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/UserMusicItem.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/UserMusicItem.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Multiple Resources/MusicCatalogResources/MusicCatalogResourcesRequest.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicCatalogResourcesRequest.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicCatalogResourcesRequest.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicCatalogResourcesRequest~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicCatalogResourcesRequest.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicCatalogResourcesRequest.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Multiple Resources/MusicCatalogResources/MusicCatalogResourcesResponse.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicCatalogResourcesResponse.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicCatalogResourcesResponse.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicCatalogResourcesResponse~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicCatalogResourcesResponse.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicCatalogResourcesResponse.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Multiple Resources/MusicCatalogResources/MusicCatalogResourcesType.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicCatalogResourcesType.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicCatalogResourcesType.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicCatalogResourcesType~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicCatalogResourcesType.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicCatalogResourcesType.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Multiple Resources/MusicLibraryResources/MusicLibraryResourcesRequest.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicLibraryResourcesRequest.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicLibraryResourcesRequest.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicLibraryResourcesRequest~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicLibraryResourcesRequest.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicLibraryResourcesRequest.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Multiple Resources/MusicLibraryResources/MusicLibraryResourcesResponse.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicLibraryResourcesResponse.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicLibraryResourcesResponse.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicLibraryResourcesResponse~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicLibraryResourcesResponse.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicLibraryResourcesResponse.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Multiple Resources/MusicLibraryResources/MusicLibraryResourcesType.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicLibraryResourcesType.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicLibraryResourcesType.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicLibraryResourcesType~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicLibraryResourcesType.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicLibraryResourcesType.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/MusadoraKit.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusadoraKit.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusadoraKit.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusadoraKit~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusadoraKit.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusadoraKit.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Music Item Properties/AlbumProperties.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/AlbumProperties.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/AlbumProperties.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/AlbumProperties~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/AlbumProperties.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/AlbumProperties.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Music Item Properties/ArtistProperties.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/ArtistProperties.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/ArtistProperties.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/ArtistProperties~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/ArtistProperties.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/ArtistProperties.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Music Item Properties/CuratorProperties.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CuratorProperties.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CuratorProperties.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CuratorProperties~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CuratorProperties.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CuratorProperties.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Music Item Properties/MusicVideoProperties.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicVideoProperties.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicVideoProperties.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicVideoProperties~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicVideoProperties.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicVideoProperties.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Music Item Properties/PlaylistProperties.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/PlaylistProperties.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/PlaylistProperties.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/PlaylistProperties~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/PlaylistProperties.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/PlaylistProperties.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Music Item Properties/RadioShowProperties.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/RadioShowProperties.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/RadioShowProperties.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/RadioShowProperties~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/RadioShowProperties.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/RadioShowProperties.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Music Item Properties/RecordLabelProperties.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/RecordLabelProperties.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/RecordLabelProperties.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/RecordLabelProperties~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/RecordLabelProperties.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/RecordLabelProperties.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Music Item Properties/SongProperties.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/SongProperties.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/SongProperties.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/SongProperties~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/SongProperties.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/SongProperties.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Music Items/Albums.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Albums.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Albums.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Albums~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Albums.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Albums.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Music Items/Artists.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Artists.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Artists.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Artists~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Artists.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Artists.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Music Items/Curators.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Curators.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Curators.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Curators~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Curators.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Curators.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Music Items/Genres.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Genres.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Genres.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Genres~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Genres.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Genres.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Music Items/LibraryPlaylists.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibraryPlaylists.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibraryPlaylists.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibraryPlaylists~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibraryPlaylists.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibraryPlaylists.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Music Items/MusicVideos.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicVideos.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicVideos.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicVideos~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicVideos.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MusicVideos.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Music Items/Playlists.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Playlists.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Playlists.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Playlists~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Playlists.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Playlists.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Music Items/RadioShows.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/RadioShows.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/RadioShows.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/RadioShows~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/RadioShows.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/RadioShows.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Music Items/RecordLabels.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/RecordLabels.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/RecordLabels.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/RecordLabels~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/RecordLabels.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/RecordLabels.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Music Items/Songs.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Songs.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Songs.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Songs~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Songs.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Songs.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Music Items/StationGenres.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/StationGenres.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/StationGenres.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/StationGenres~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/StationGenres.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/StationGenres.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Music Items/Stations.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Stations.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Stations.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Stations~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Stations.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Stations.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Music Items/Tracks.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Tracks.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Tracks.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Tracks~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Tracks.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Tracks.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Music Items/UserMusicItems.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/UserMusicItems.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/UserMusicItems.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/UserMusicItems~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/UserMusicItems.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/UserMusicItems.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Music Player/APlayer.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/APlayer.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/APlayer.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/APlayer~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/APlayer.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/APlayer.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Music Player/SPlayer.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/SPlayer.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/SPlayer.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/SPlayer~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/SPlayer.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/SPlayer.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Ratings/Catalog/AddCatalogRating.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/AddCatalogRating.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/AddCatalogRating.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/AddCatalogRating~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/AddCatalogRating.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/AddCatalogRating.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Ratings/Catalog/CatalogRatingMusicItemType.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogRatingMusicItemType.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogRatingMusicItemType.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogRatingMusicItemType~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogRatingMusicItemType.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/CatalogRatingMusicItemType.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Ratings/Catalog/DeleteCatalogRating.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/DeleteCatalogRating.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/DeleteCatalogRating.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/DeleteCatalogRating~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/DeleteCatalogRating.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/DeleteCatalogRating.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Ratings/Catalog/GetCatalogRating.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/GetCatalogRating.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/GetCatalogRating.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/GetCatalogRating~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/GetCatalogRating.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/GetCatalogRating.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Ratings/Catalog/MCatalogRatingAddRequest.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MCatalogRatingAddRequest.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MCatalogRatingAddRequest.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MCatalogRatingAddRequest~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MCatalogRatingAddRequest.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MCatalogRatingAddRequest.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Ratings/Catalog/MCatalogRatingDeleteRequest.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MCatalogRatingDeleteRequest.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MCatalogRatingDeleteRequest.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MCatalogRatingDeleteRequest~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MCatalogRatingDeleteRequest.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MCatalogRatingDeleteRequest.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Ratings/Catalog/MCatalogRatingRequest.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MCatalogRatingRequest.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MCatalogRatingRequest.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MCatalogRatingRequest~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MCatalogRatingRequest.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MCatalogRatingRequest.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Ratings/Library/AddLibraryRating.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/AddLibraryRating.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/AddLibraryRating.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/AddLibraryRating~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/AddLibraryRating.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/AddLibraryRating.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Ratings/Library/DeleteLibraryRating.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/DeleteLibraryRating.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/DeleteLibraryRating.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/DeleteLibraryRating~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/DeleteLibraryRating.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/DeleteLibraryRating.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Ratings/Library/GetLibraryRating.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/GetLibraryRating.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/GetLibraryRating.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/GetLibraryRating~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/GetLibraryRating.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/GetLibraryRating.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Ratings/Library/LibraryRatingMusicItemType.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibraryRatingMusicItemType.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibraryRatingMusicItemType.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibraryRatingMusicItemType~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibraryRatingMusicItemType.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/LibraryRatingMusicItemType.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Ratings/Library/MLibraryRatingAddRequest.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MLibraryRatingAddRequest.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MLibraryRatingAddRequest.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MLibraryRatingAddRequest~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MLibraryRatingAddRequest.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MLibraryRatingAddRequest.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Ratings/Library/MLibraryRatingDeleteRequest.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MLibraryRatingDeleteRequest.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MLibraryRatingDeleteRequest.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MLibraryRatingDeleteRequest~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MLibraryRatingDeleteRequest.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MLibraryRatingDeleteRequest.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Ratings/Library/MLibraryRatingRequest.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MLibraryRatingRequest.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MLibraryRatingRequest.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MLibraryRatingRequest~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MLibraryRatingRequest.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MLibraryRatingRequest.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Ratings/Models/RatingRequest.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/RatingRequest.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/RatingRequest.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/RatingRequest~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/RatingRequest.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/RatingRequest.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Ratings/Models/RatingType.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/RatingType.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/RatingType.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/RatingType~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/RatingType.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/RatingType.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Ratings/Models/Ratings.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Ratings.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Ratings.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Ratings~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Ratings.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Ratings.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Ratings/Models/RatingsResponse.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/RatingsResponse.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/RatingsResponse.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/RatingsResponse~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/RatingsResponse.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/RatingsResponse.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Recommendations/MRecommendation+default.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MRecommendation+default.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MRecommendation+default.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MRecommendation+default~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MRecommendation+default.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MRecommendation+default.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Recommendations/MRecommendation+personal.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MRecommendation+personal.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MRecommendation+personal.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MRecommendation+personal~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MRecommendation+personal.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MRecommendation+personal.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Recommendations/MRecommendation.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MRecommendation.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MRecommendation.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MRecommendation~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MRecommendation.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MRecommendation.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Recommendations/MRecommendationItem.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MRecommendationItem.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MRecommendationItem.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MRecommendationItem~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MRecommendationItem.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MRecommendationItem.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Recommendations/MRecommendationMusicItem.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MRecommendationMusicItem.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MRecommendationMusicItem.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MRecommendationMusicItem~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MRecommendationMusicItem.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MRecommendationMusicItem.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Recommendations/MRecommendationRequest.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MRecommendationRequest.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MRecommendationRequest.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MRecommendationRequest~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MRecommendationRequest.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MRecommendationRequest.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Recommendations/MRecommendationResponse.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MRecommendationResponse.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MRecommendationResponse.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MRecommendationResponse~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MRecommendationResponse.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MRecommendationResponse.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Recommendations/MRecommendations.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MRecommendations.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MRecommendations.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MRecommendations~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MRecommendations.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MRecommendations.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Recommendations/PersonalRecommendations.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/PersonalRecommendations.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/PersonalRecommendations.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/PersonalRecommendations~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/PersonalRecommendations.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/PersonalRecommendations.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Requests/MDataDeleteRequest.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MDataDeleteRequest.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MDataDeleteRequest.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MDataDeleteRequest~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MDataDeleteRequest.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MDataDeleteRequest.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Requests/MDataPostRequest.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MDataPostRequest.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MDataPostRequest.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MDataPostRequest~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MDataPostRequest.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MDataPostRequest.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Requests/MDataPutRequest.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MDataPutRequest.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MDataPutRequest.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MDataPutRequest~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MDataPutRequest.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MDataPutRequest.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Requests/MDataRequest.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MDataRequest.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MDataRequest.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MDataRequest~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MDataRequest.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MDataRequest.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Requests/MDeveloperTokenProvider.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MDeveloperTokenProvider.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MDeveloperTokenProvider.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MDeveloperTokenProvider~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MDeveloperTokenProvider.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MDeveloperTokenProvider.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Requests/MUserRequest.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MUserRequest.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MUserRequest.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MUserRequest~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MUserRequest.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/MUserRequest.dia"
+  },
+  "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/checkouts/MusadoraKit/Sources/MusadoraKit/Storefronts.swift": {
+    "dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Storefronts.d",
+    "object": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Storefronts.swift.o",
+    "swiftmodule": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Storefronts~partial.swiftmodule",
+    "swift-dependencies": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Storefronts.swiftdeps",
+    "diagnostics": "/Users/benkohler/Projekte/StarTune-Xcode/.build/index-build/arm64-apple-macosx/debug/MusadoraKit.build/Storefronts.dia"
+  }
+}

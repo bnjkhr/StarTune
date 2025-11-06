@@ -12,26 +12,42 @@ import SwiftUI
 class AppDelegate: NSObject, NSApplicationDelegate {
     var musicKitManager: MusicKitManager?
     var playbackMonitor: PlaybackMonitor?
-    
+
     // Track if setup has been initiated to avoid duplicate calls
     private var setupInProgress = false
     private var setupCompleted = false
 
     func applicationDidFinishLaunching(_ notification: Notification) {
-        print("🚀 App did finish launching")
+        print("🚀 App did finish launching - event-driven architecture enabled")
         // Note: Setup will be triggered from MenuBarView.onAppear where StateObjects are guaranteed ready
     }
-    
+
+    func applicationWillTerminate(_ notification: Notification) {
+        print("🛑 App will terminate - cleaning up resources...")
+
+        // Perform cleanup on main actor
+        Task { @MainActor in
+            // Stop monitoring to clean up Combine subscriptions and observers
+            playbackMonitor?.stopMonitoring()
+
+            // Release references
+            musicKitManager = nil
+            playbackMonitor = nil
+
+            print("✅ Cleanup complete")
+        }
+    }
+
     /// Called from view's onAppear when StateObjects are ready
     func performSetupIfNeeded() {
         guard !setupInProgress, !setupCompleted else {
             print("⚠️ Setup already completed or in progress")
             return
         }
-        
+
         setupInProgress = true
-        print("🚀 Starting app setup...")
-        
+        print("🚀 Starting app setup with event-driven architecture...")
+
         Task { @MainActor in
             await self.setupApp()
             setupCompleted = true
@@ -51,9 +67,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         print("⚙️ Setting up app...")
 
         // MusicKit Authorization beim Start with error handling
-        let authStatus = await musicKitManager.requestAuthorization()
+        await musicKitManager.requestAuthorization()
+        let authStatus = musicKitManager.authorizationStatus
         print("🔐 Authorization status: \(authStatus.description)")
-        
+
         // Log detailed status for debugging
         switch authStatus {
         case .authorized:
@@ -76,12 +93,12 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         }
 
         // Playback Monitoring IMMER starten (auch ohne Authorization)
-        // Das AppleScript funktioniert auch ohne MusicKit
+        // Event-driven architecture - no AppleScript or polling needed!
         // Note: startMonitoring doesn't throw - all errors handled gracefully inside
         await playbackMonitor.startMonitoring()
-        print("✅ Playback monitoring started")
+        print("✅ Event-driven playback monitoring started (no timer, no AppleScript)")
 
-        print("✅ App setup complete")
+        print("✅ App setup complete - event-driven architecture active")
     }
 }
 
@@ -92,7 +109,7 @@ struct StarTuneApp: App {
     @StateObject private var playbackMonitor = PlaybackMonitor()
 
     init() {
-        print("🏗️ StarTune App initializing...")
+        print("🏗️ StarTune App initializing with event-driven architecture...")
         // App als Menu Bar Only (kein Dock Icon)
         // Wird über Info.plist gesteuert: LSUIElement = true
     }

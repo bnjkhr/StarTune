@@ -5,6 +5,7 @@
 //  Created on 2025-10-24.
 //
 
+import Combine
 import MusicKit
 import SwiftUI
 
@@ -16,9 +17,9 @@ struct MenuBarView: View {
 
     let appDelegate: AppDelegate
 
-    @State private var favoritesService = FavoritesService()
     @State private var isProcessing = false
     @State private var hasSetupRun = false
+    @State private var favoriteDebounceTask: Task<Void, Never>?
 
     var body: some View {
         VStack(alignment: .leading, spacing: 12) {
@@ -57,19 +58,10 @@ struct MenuBarView: View {
                 hasSetupRun = true
                 appDelegate.performSetupIfNeeded()
             }
-
-            // Listen for favorite requests from MenuBarController
-            NotificationCenter.default.addObserver(
-                forName: .addToFavorites,
-                object: nil,
-                queue: .main
-            ) { [self] _ in
-                self.addToFavorites()
-            }
         }
-        .onDisappear {
-            // Clean up notification observer
-            NotificationCenter.default.removeObserver(self, name: .addToFavorites, object: nil)
+        .onReceive(NotificationCenter.default.publisher(for: .addToFavorites)) { _ in
+            // Listen for favorite requests from MenuBarController
+            addToFavorites()
         }
     }
 
@@ -170,87 +162,109 @@ struct MenuBarView: View {
     // MARK: - Actions
 
     private func addToFavorites() {
+        // Cancel any pending debounce task
+        favoriteDebounceTask?.cancel()
+
         guard let song = playbackMonitor.currentSong else { return }
 
         isProcessing = true
 
-        Task {
+        // Create debounced task
+        favoriteDebounceTask = Task {
+            // Wait 300ms to aggregate rapid clicks
+            try? await Task.sleep(nanoseconds: 300_000_000)
+
+            // Check if cancelled
+            guard !Task.isCancelled else {
+                isProcessing = false
+                return
+            }
+
             do {
-                let success = try await favoritesService.addToFavorites(song: song)
+                let success = try await FavoritesService.shared.addToFavorites(song: song)
 
-                await MainActor.run {
-                    isProcessing = false
+                // Already @MainActor - no need for MainActor.run
+                isProcessing = false
 
-                    if success {
-                        // Status aktualisieren
-                        playbackMonitor.isFavorited = true
+                if success {
+                    // Status aktualisieren
+                    playbackMonitor.isFavorited = true
 
-                        // Success Notification
-                        NotificationCenter.default.post(
-                            name: .favoriteSuccess,
-                            object: nil
-                        )
-                    } else {
-                        // Error Notification
-                        NotificationCenter.default.post(
-                            name: .favoriteError,
-                            object: nil
-                        )
-                    }
-                }
-            } catch {
-                await MainActor.run {
-                    isProcessing = false
+                    // Success Notification
+                    NotificationCenter.default.post(
+                        name: .favoriteSuccess,
+                        object: nil
+                    )
+                } else {
+                    // Error Notification
                     NotificationCenter.default.post(
                         name: .favoriteError,
                         object: nil
                     )
-                    print("Error adding to favorites: \(error.localizedDescription)")
                 }
+            } catch {
+                // Already @MainActor - no need for MainActor.run
+                isProcessing = false
+                NotificationCenter.default.post(
+                    name: .favoriteError,
+                    object: nil
+                )
+                print("Error adding to favorites: \(error.localizedDescription)")
             }
         }
     }
 
     private func removeFromFavorites() {
+        // Cancel any pending debounce task
+        favoriteDebounceTask?.cancel()
+
         guard let song = playbackMonitor.currentSong else { return }
 
         isProcessing = true
 
-        Task {
+        // Create debounced task
+        favoriteDebounceTask = Task {
+            // Wait 300ms to aggregate rapid clicks
+            try? await Task.sleep(nanoseconds: 300_000_000)
+
+            // Check if cancelled
+            guard !Task.isCancelled else {
+                isProcessing = false
+                return
+            }
+
             do {
-                let success = try await favoritesService.removeFromFavorites(song: song)
+                let success = try await FavoritesService.shared.removeFromFavorites(song: song)
 
-                await MainActor.run {
-                    isProcessing = false
+                // Already @MainActor - no need for MainActor.run
+                isProcessing = false
 
-                    if success {
-                        // Status aktualisieren
-                        playbackMonitor.isFavorited = false
+                if success {
+                    // Status aktualisieren
+                    playbackMonitor.isFavorited = false
 
-                        print("✅ Successfully removed '\(song.title)' from favorites")
+                    print("✅ Successfully removed '\(song.title)' from favorites")
 
-                        // Success Notification
-                        NotificationCenter.default.post(
-                            name: .favoriteSuccess,
-                            object: nil
-                        )
-                    } else {
-                        // Error Notification
-                        NotificationCenter.default.post(
-                            name: .favoriteError,
-                            object: nil
-                        )
-                    }
-                }
-            } catch {
-                await MainActor.run {
-                    isProcessing = false
+                    // Success Notification
+                    NotificationCenter.default.post(
+                        name: .favoriteSuccess,
+                        object: nil
+                    )
+                } else {
+                    // Error Notification
                     NotificationCenter.default.post(
                         name: .favoriteError,
                         object: nil
                     )
-                    print("Error removing from favorites: \(error.localizedDescription)")
                 }
+            } catch {
+                // Already @MainActor - no need for MainActor.run
+                isProcessing = false
+                NotificationCenter.default.post(
+                    name: .favoriteError,
+                    object: nil
+                )
+                print("Error removing from favorites: \(error.localizedDescription)")
             }
         }
     }

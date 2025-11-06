@@ -19,7 +19,8 @@ class PlaybackMonitor: ObservableObject {
 
     private var timer: Timer?
     private let musicBridge = MusicAppBridge()
-    private let favoritesService = FavoritesService()
+    // Use shared singleton instance
+    private let favoritesService = FavoritesService.shared
 
     // MARK: - Monitoring
 

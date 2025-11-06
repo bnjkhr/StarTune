@@ -13,7 +13,6 @@ struct MenuBarView: View {
     @ObservedObject var musicKitManager: MusicKitManager
     @ObservedObject var playbackMonitor: PlaybackMonitor
 
-    @State private var favoritesService = FavoritesService()
     @State private var isProcessing = false
 
     var body: some View {
@@ -137,7 +136,7 @@ struct MenuBarView: View {
 
         Task {
             do {
-                let success = try await favoritesService.addToFavorites(song: song)
+                let success = try await FavoritesService.shared.addToFavorites(song: song)
 
                 await MainActor.run {
                     isProcessing = false

@@ -13,16 +13,14 @@ import SwiftUI
 class MenuBarController: ObservableObject {
     private var statusItem: NSStatusItem?
     @Published var isPlaying = false
+    private var cancellables = Set<AnyCancellable>()
 
     // MARK: - Setup
 
     init() {
         setupMenuBar()
+        setupIconUpdates()
         observeFavoriteNotifications()
-    }
-
-    deinit {
-        NotificationCenter.default.removeObserver(self)
     }
 
     private func setupMenuBar() {
@@ -75,26 +73,33 @@ class MenuBarController: ObservableObject {
         )
     }
 
-    private func showContextMenu() {
+    // Lazy cached menu - created once and reused
+    private lazy var contextMenu: NSMenu = {
         let menu = NSMenu()
 
-        menu.addItem(
-            NSMenuItem(
-                title: String(localized: "About StarTune"),
-                action: #selector(showAbout),
-                keyEquivalent: ""
-            ))
+        let aboutItem = NSMenuItem(
+            title: String(localized: "About StarTune"),
+            action: #selector(showAbout),
+            keyEquivalent: ""
+        )
+        aboutItem.target = self
+        menu.addItem(aboutItem)
 
         menu.addItem(NSMenuItem.separator())
 
-        menu.addItem(
-            NSMenuItem(
-                title: String(localized: "Quit StarTune"),
-                action: #selector(quit),
-                keyEquivalent: "q"
-            ))
+        let quitItem = NSMenuItem(
+            title: String(localized: "Quit StarTune"),
+            action: #selector(quit),
+            keyEquivalent: "q"
+        )
+        quitItem.target = self
+        menu.addItem(quitItem)
 
-        statusItem?.menu = menu
+        return menu
+    }()
+
+    private func showContextMenu() {
+        statusItem?.menu = contextMenu
         statusItem?.button?.performClick(nil)
         statusItem?.menu = nil  // Menu nach Anzeige wieder entfernen
     }
@@ -110,20 +115,34 @@ class MenuBarController: ObservableObject {
 
     // MARK: - Icon Updates
 
+    /// Setup throttled icon updates using Combine
+    private func setupIconUpdates() {
+        // Throttle icon updates to max 10 per second (100ms interval)
+        $isPlaying
+            .throttle(for: .milliseconds(100), scheduler: DispatchQueue.main, latest: true)
+            .sink { [weak self] isPlaying in
+                self?.updateIconImmediate(isPlaying: isPlaying)
+            }
+            .store(in: &cancellables)
+    }
+
     /// Aktualisiert das Icon basierend auf Playback Status
     func updateIcon(isPlaying: Bool) {
+        // Just update the published property
+        // Throttled update happens automatically via $isPlaying publisher
         self.isPlaying = isPlaying
+    }
 
-        DispatchQueue.main.async { [weak self] in
-            self?.statusItem?.button?.contentTintColor = isPlaying ? .systemYellow : .systemGray
+    /// Immediate icon update (called by throttled publisher)
+    private func updateIconImmediate(isPlaying: Bool) {
+        statusItem?.button?.contentTintColor = isPlaying ? .systemYellow : .systemGray
 
-            // Tooltip aktualisieren
-            if isPlaying {
-                self?.statusItem?.button?.toolTip = String(
-                    localized: "Click to favorite current song")
-            } else {
-                self?.statusItem?.button?.toolTip = String(localized: "No music playing")
-            }
+        // Tooltip aktualisieren
+        if isPlaying {
+            statusItem?.button?.toolTip = String(
+                localized: "Click to favorite current song")
+        } else {
+            statusItem?.button?.toolTip = String(localized: "No music playing")
         }
     }
 
@@ -157,27 +176,21 @@ class MenuBarController: ObservableObject {
     // MARK: - Notifications
 
     private func observeFavoriteNotifications() {
-        NotificationCenter.default.addObserver(
-            self,
-            selector: #selector(favoriteSuccess),
-            name: .favoriteSuccess,
-            object: nil
-        )
+        // Success notifications using Combine
+        NotificationCenter.default.publisher(for: .favoriteSuccess)
+            .receive(on: DispatchQueue.main)
+            .sink { [weak self] _ in
+                self?.showSuccessAnimation()
+            }
+            .store(in: &cancellables)
 
-        NotificationCenter.default.addObserver(
-            self,
-            selector: #selector(favoriteError),
-            name: .favoriteError,
-            object: nil
-        )
-    }
-
-    @objc private func favoriteSuccess() {
-        showSuccessAnimation()
-    }
-
-    @objc private func favoriteError() {
-        showErrorAnimation()
+        // Error notifications using Combine
+        NotificationCenter.default.publisher(for: .favoriteError)
+            .receive(on: DispatchQueue.main)
+            .sink { [weak self] _ in
+                self?.showErrorAnimation()
+            }
+            .store(in: &cancellables)
     }
 }
 
