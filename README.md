@@ -60,8 +60,8 @@
 
 1. **Repository klonen**
    ```bash
-   git clone https://github.com/yourusername/startune.git
-   cd startune
+   git clone https://github.com/bnjkhr/StarTune.git
+   cd StarTune
    ```
 
 2. **Xcode Projekt öffnen**
@@ -600,8 +600,8 @@ hdiutil create -volname StarTune -srcfolder StarTune.app -ov -format UDZO StarTu
 
 ```bash
 # Clone Repository
-git clone https://github.com/yourusername/startune.git
-cd startune/StarTune-Xcode
+git clone https://github.com/bnjkhr/StarTune.git
+cd StarTune/StarTune-Xcode
 
 # Xcode öffnen
 open StarTune/StarTune.xcodeproj
@@ -717,8 +717,7 @@ MIT License - siehe [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 **Ben Kohler**
-- GitHub: [@benkohler](https://github.com/benkohler)
-- Website: [your-website.com](https://your-website.com)
+- GitHub: [@bnjkhr](https://github.com/bnjkhr)
 
 ---
 
@@ -745,6 +744,6 @@ MIT License - siehe [LICENSE](LICENSE) file
 
 **Made with ❤️ and SwiftUI**
 
-[Report Bug](https://github.com/yourusername/startune/issues) · [Request Feature](https://github.com/yourusername/startune/issues) · [Documentation](docs/)
+[Report Bug](https://github.com/bnjkhr/StarTune/issues) · [Request Feature](https://github.com/bnjkhr/StarTune/issues) · [Documentation](docs/)
 
 </div>
