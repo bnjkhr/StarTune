@@ -8,6 +8,27 @@
 import SwiftUI
 import MusicKit
 
+/// A window manager that ensures a single instance of the settings window.
+fileprivate class SettingsWindowManager {
+    private static var settingsWindow: NSWindow?
+
+    static func open() {
+        if settingsWindow == nil {
+            let settingsView = SettingsView()
+            let hostingController = NSHostingController(rootView: settingsView)
+            let window = NSWindow(contentViewController: hostingController)
+            window.title = "StarTune Settings"
+            window.isReleasedWhenClosed = false // Keep window in memory
+            window.styleMask = [.titled, .closable]
+            settingsWindow = window
+        }
+
+        NSApp.activate(ignoringOtherApps: true)
+        settingsWindow?.center()
+        settingsWindow?.makeKeyAndOrderFront(nil)
+    }
+}
+
 /// SwiftUI View für Menu Bar Extra Content
 struct MenuBarView: View {
     @ObservedObject var musicKitManager: MusicKitManager
@@ -39,14 +60,31 @@ struct MenuBarView: View {
 
             Divider()
 
-            // Quit Button
-            Button("Quit StarTune") {
-                NSApplication.shared.terminate(nil)
+            // Footer controls
+            HStack {
+                Button(action: openSettingsWindow) {
+                    Image(systemName: "gearshape.fill")
+                        .font(.system(size: 16))
+                }
+                .buttonStyle(.plain)
+                .help("Open Settings")
+
+                Spacer()
+
+                Button("Quit StarTune") {
+                    NSApplication.shared.terminate(nil)
+                }
+                .keyboardShortcut("q", modifiers: .command)
             }
-            .keyboardShortcut("q", modifiers: .command)
         }
         .padding()
         .frame(width: 300)
+    }
+
+    // MARK: - Window Management
+
+    private func openSettingsWindow() {
+        SettingsWindowManager.open()
     }
 
     // MARK: - Sections

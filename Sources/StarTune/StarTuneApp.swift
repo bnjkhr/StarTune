@@ -7,6 +7,7 @@
 
 import SwiftUI
 import MusicKit
+import ServiceManagement
 
 /// The main entry point for the StarTune menu bar application.
 ///
@@ -101,12 +102,22 @@ struct StarTuneApp: App {
     ///   runs fresh on each app launch, not just the first launch ever.
     @State private var hasSetupApp = false
 
+    /// Persisted setting for "Launch at Login"
+    @AppStorage("launchAtLogin") private var launchAtLogin = false
+
     // MARK: - Initialization
 
-    /// Creates the app instance.
+    /// Creates the app instance and syncs autostart status.
     ///
     /// The initializer is intentionally minimal - all actual setup happens in
     /// ``setupApp()`` which runs on first menu open, not at launch.
+    ///
+    /// ## Autostart Synchronization
+    /// On every app launch, this initializer calls ``synchronizeAutoStartStatus()``
+    /// to ensure the app's autostart setting in `ServiceManagement` matches
+    /// the user's preference stored in `UserDefaults` (`@AppStorage`). This
+    /// prevents discrepancies if the app was force-quit or if settings were
+    /// changed externally.
     ///
     /// ## Menu Bar Only Configuration
     ///
@@ -119,7 +130,7 @@ struct StarTuneApp: App {
     /// - Note: The Info.plist setting is what makes this work - no code needed here.
     init() {
         // App configured as menu bar only via Info.plist: LSUIElement = true
-        // No initialization needed here - setup happens in setupApp()
+        synchronizeAutoStartStatus()
     }
 
     // MARK: - Scene
@@ -173,12 +184,36 @@ struct StarTuneApp: App {
                 .foregroundColor(playbackMonitor.isPlaying ? .yellow : .gray)
         }
         .menuBarExtraStyle(.window) // Popover style (vs .menu for dropdown menu)
+
+        // Settings window - handled by WindowGroup but not directly visible
+        // unless opened from the menu bar.
+        // Using `handlesExternalEvents` allows the SettingsWindowManager to
+        // activate the existing window.
+        WindowGroup(id: "settings") {
+            SettingsView()
+        }
+        .handlesExternalEvents(matching: Set(arrayLiteral: "settings"))
     }
 }
 
 // MARK: - App Lifecycle
 
 extension StarTuneApp {
+
+    /// Ensures the app's autostart setting matches the user's preference.
+    ///
+    /// This method is called at launch to sync the `ServiceManagement` status
+    /// with the state of the `@AppStorage("launchAtLogin")` property. It
+    /// prevents inconsistencies, for example, if the user manually changes
+    /// the setting in System Preferences.
+    private func synchronizeAutoStartStatus() {
+        let manager = AutoStartManager()
+        let isEnabled = manager.isAutoStartEnabled()
+
+        if isEnabled != launchAtLogin {
+            manager.setAutoStart(enabled: launchAtLogin)
+        }
+    }
 
     /// Performs one-time app setup: requests authorization and starts monitoring.
     ///
