@@ -60,6 +60,9 @@ struct MenuBarView: View {
 
             Divider()
 
+            // Spacer to push controls to the bottom
+            Spacer()
+
             // Footer controls
             HStack {
                 Button(action: openSettingsWindow) {
@@ -78,7 +81,7 @@ struct MenuBarView: View {
             }
         }
         .padding()
-        .frame(width: 300)
+        .frame(width: 300, height: 230) // Adjusted height to ensure visibility
     }
 
     // MARK: - Window Management

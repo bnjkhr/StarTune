@@ -81,6 +81,9 @@
         }
       }
     },
+    "Close" : {
+
+    },
     "Favorite Current Song" : {
       "localizations" : {
         "de" : {
@@ -96,6 +99,9 @@
           }
         }
       }
+    },
+    "Launch at Login" : {
+
     },
     "No music playing" : {
       "localizations" : {
@@ -128,6 +134,9 @@
           }
         }
       }
+    },
+    "Open Settings" : {
+
     },
     "Paused" : {
       "extractionState" : "stale",
@@ -194,6 +203,9 @@
           }
         }
       }
+    },
+    "Settings" : {
+
     },
     "StarTune" : {
       "localizations" : {

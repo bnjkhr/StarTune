@@ -128,15 +128,11 @@ class FavoritesService {
     /// Maps MusadoraKitError to typed AppError with recovery suggestions
     private func mapMusadoraKitError(_ error: MusadoraKitError) -> AppError {
         switch error {
-        case .notAuthorized:
-            return .authorizationError(.notAuthorized)
-        case .noSubscription:
-            return .authorizationError(.noSubscription)
-        case .networkError, .urlError:
+        case .notFound(let item):
+            return .resourceError(.notFound(item))
+        case .typeMissing:
             return .networkError(.requestFailed(error))
-        case .notFound:
-            return .resourceError(.notFound("song"))
-        default:
+        case .recommendationOverLimit, .historyOverLimit:
             return .networkError(.requestFailed(error))
         }
     }
