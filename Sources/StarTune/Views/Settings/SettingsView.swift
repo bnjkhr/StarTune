@@ -29,7 +29,7 @@ struct SettingsView: View {
 
             // Launch at Login Toggle
             Toggle("Launch at Login", isOn: $launchAtLogin)
-                .onChange(of: launchAtLogin) { newValue in
+                .onChange(of: launchAtLogin) { _, newValue in
                     autoStartManager.setAutoStart(enabled: newValue)
                 }
 
