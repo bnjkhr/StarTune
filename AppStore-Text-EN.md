@@ -25,9 +25,7 @@ StarTune brings essential Apple Music features right into your menu bar. With on
 • "Add to Favorites" → Song gets favorited
 • Done – synced across all your devices
 
-**Why StarTune?**
-
-You're listening to music, an amazing song is playing, and you want to favorite it. Normally, you'd have to open Apple Music, navigate through menus, and click multiple times. With StarTune it's faster: Click the star in the menu bar, see the song info, favorite it – done.
+Without StarTune, favoriting a song means opening Apple Music, navigating menus, and clicking several times. With StarTune, you click the star in the menu bar, see the song, and favorite it.
 
 **Features in Detail:**
 
@@ -41,20 +39,16 @@ Click the star and you instantly see:
 ⚡ **Quick Favoriting**
 The "Add to Favorites" button in the popup adds the current song to your Apple Music favorites – without having to open the Music app.
 
-⭐ **Menu Bar Convenience**
+⭐ **Menu Bar Only**
 A discreet star icon in your menu bar – always available, never in the way. No Dock icon, no distracting windows.
 
-🔗 **Seamless Apple Music Integration**
+🔗 **Apple Music Integration**
 StarTune uses Apple's official MusicKit APIs and AppleScript for reliable integration:
-- Instant synchronization across all your devices
 - Favorites appear directly in Apple Music
 - Works with the native Music.app
 
-🚀 **Menu Bar Design**
-StarTune lives discreetly in your menu bar. No distracting Dock icon – just an elegant star, always ready when you need it.
-
-💫 **Instant Confirmation**
-After favoriting, you see immediate confirmation in the popup. Your favorites sync instantly with Apple Music.
+💫 **Confirmation in the Popup**
+After favoriting, you see a confirmation in the popup.
 
 **Technical Highlights:**
 
@@ -79,17 +73,9 @@ After favoriting, you see immediate confirmation in the popup. Your favorites sy
 **Your Privacy:**
 StarTune communicates exclusively with Apple Music. No analytics, no tracking, no ads. Your music data stays private.
 
-**Built with Focus on Simplicity:**
-StarTune emerged from the desire to have essential Music info and favorites functionality directly available in the menu bar – without constantly switching between apps.
-
-**Try it out:**
-Download StarTune and always have your Apple Music info in view. Favorite songs while you work, without interrupting your workflow.
-
 ---
 
 Have feedback or a feature request? Let me know.
-
-Made with ⭐ for music lovers.
 
 ---
 
