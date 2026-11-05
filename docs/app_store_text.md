@@ -1,92 +1,200 @@
-StarTune** revolutioniert die Art, wie Sie Ihre Apple Music Favorites verwalten! Diese elegante Menu Bar App macht das Favorisieren von Songs zum Kinderspiel.
+# StarTune - App Store Beschreibung
 
-**WARUM STARTUNE?**
-- **Ein-Klick-Lösung**: Keine umständlichen Klicks durch die Apple Music App mehr
-- **Immer verfügbar**: Direkt aus Ihrer Menu Bar erreichbar
-- **Intelligent**: Erkennt automatisch den aktuellen Song
-- **Schnell**: Sofortiges Favorisieren ohne Verzögerung
+## App Name
+**StarTune**
 
-**HAUPTFEATURES**
-- **Live-Song-Erkennung**: Zeigt automatisch den aktuellen Song an
-- **One-Click Favorites**: Ein Klick auf das Stern-Icon genügt
-- **Dynamisches Icon**: Gold bei Wiedergabe, grau im Pause-Modus
-- **Song-Informationen**: Titel, Künstler und Album werden angezeigt
-- **Status-Indikator**: Visualisiert den aktuellen Wiedergabestatus
-- **Visuelles Feedback**: Erfolg- und Fehlermeldungen mit Animationen
+---
 
-**PRIVACY & SICHERHEIT**
-- **Privacy First**: Alle Daten bleiben auf Ihrem Mac
-- **Keine Tracker**: Keine Analyse-Tools oder Drittanbieter-Services
-- **Nativer Code**: Volle Kontrolle über Ihre Daten
-- **Apple Music Integration**: Nutzt die offizielle Apple Music API
+## Subtitle (30 Zeichen max)
+Apple Music Favoriten-Tool
 
-**TECHNISCHE VORTEILE**
-- **Native Performance**: Optimierte SwiftUI-Implementierung
-- **MusicKit Integration**: Offizielle Apple Framework Integration
-- **Minimaler Ressourcenverbrauch**: Lief diskret im Hintergrund
-- **macOS 14+ Optimiert**: Nutzt die neuesten macOS Features
+---
 
-**PERFEKT FÜR**
-- Music Enthusiasts, die ihre Bibliothek kuratieren
-- DJ's und Playlist-Ersteller
-- Jeden, der Apple Music täglich nutzt
-- Nutzer, die Wert auf Effizienz legen
+## Promotional Text (170 Zeichen max)
+Dein Apple Music Favoriten-Manager in der Menüleiste. Sieh auf einen Blick, was gerade läuft und favorisiere Songs direkt – ohne die Music App zu öffnen.
 
-**NUTZUNGSFÄLLE**
-- Während Sie arbeiten: Schnell einen guten Track favorisieren
-- Bei der Musikentdeckung: Neue Songs sofort speichern
-- In Meetings: Unauffällig Songs markieren
-- Unterwegs: Zeit sparen bei der Playlist-Erstellung
+---
 
-**MINDESTVORAUSSETZUNGEN**
-- macOS 14.0 (Sonoma) oder neuer
-- Aktives Apple Music Abo
-- Apple Music App
+## Beschreibung
 
+StarTune bringt die wichtigsten Apple Music Funktionen direkt in deine Menüleiste. Mit einem Klick siehst du, was gerade läuft, und kannst Songs zu deinen Favoriten hinzufügen – ohne die Music App öffnen zu müssen.
 
+**So funktioniert's:**
+• Klick auf den Stern → Popup zeigt aktuellen Song
+• Sieh Titel, Artist und Album auf einen Blick
+• "Add to Favorites" → Song wird favorisiert
+• Fertig – synchronisiert mit all deinen Geräten
 
+Ohne StarTune musst du zum Favorisieren Apple Music öffnen, durch Menüs navigieren und mehrmals klicken. Mit StarTune klickst du auf den Stern in der Menüleiste, siehst den Song und favorisierst ihn.
 
-StarTune** revolutionizes how you manage your Apple Music favorites! This elegant menu bar app makes favoriting songs effortless.
+**Features im Detail:**
 
-**WHY STARTUNE?**
-- **One-Click Solution**: No more cumbersome clicks through the Apple Music app
-- **Always Available**: Directly accessible from your menu bar
-- **Intelligent**: Automatically detects the current song
-- **Fast**: Instant favorizing without delay
+🎵 **Now Playing Display**
+Klick auf den Stern und du siehst sofort:
+- Song-Titel
+- Interpret
+- Album
+- Playback-Status (Playing/Paused)
 
-**KEY FEATURES**
-- **Live Song Detection**: Automatically shows the current song
-- **One-Click Favorites**: Just click the star icon
-- **Dynamic Icon**: Gold when playing, gray when paused
-- **Song Information**: Displays title, artist, and album
-- **Status Indicator**: Shows current playback status
-- **Visual Feedback**: Success and error animations
+⚡ **Schnelle Favorisierung**
+Der "Add to Favorites" Button im Popup fügt den aktuellen Song zu deinen Apple Music Favoriten hinzu – ohne dass du die Music App öffnen musst.
 
-**PRIVACY & SECURITY**
-- **Privacy First**: All data stays on your Mac
-- **No Trackers**: No analytics or third-party services
-- **Native Code**: Full control over your data
-- **Apple Music Integration**: Uses official Apple Music API
+⭐ **Nur in der Menüleiste**
+Ein diskretes Stern-Icon in deiner Menüleiste – immer verfügbar, nie im Weg. Kein Dock-Icon, keine störenden Fenster.
 
-**TECHNICAL ADVANTAGES**
-- **Native Performance**: Optimized SwiftUI implementation
-- **MusicKit Integration**: Official Apple framework integration
-- **Minimal Resource Usage**: Runs discreetly in background
-- **macOS 14+ Optimized**: Leverages latest macOS features
+🔗 **Apple Music Integration**
+StarTune nutzt die offiziellen MusicKit APIs und AppleScript für zuverlässige Integration:
+- Favoriten erscheinen direkt in Apple Music
+- Funktioniert mit der nativen Music.app
 
-**PERFECT FOR**
-- Music enthusiasts curating their library
-- DJs and playlist creators
-- Anyone using Apple Music daily
-- Users who value efficiency
+💫 **Bestätigung im Popup**
+Nach dem Favorisieren siehst du direkt im Popup die Bestätigung.
 
-**USE CASES**
-- While working: Quick favorite a good track
-- Music discovery: Instantly save new songs
-- In meetings: Discreetly mark songs
-- On the go: Save time playlist curation
+**Technische Highlights:**
 
-**REQUIREMENTS**
-- macOS 14.0 (Sonoma) or later
-- Active Apple Music subscription
-- Apple Music app
+✓ Native macOS App mit SwiftUI
+✓ Minimaler Ressourcen-Verbrauch
+✓ Dark Mode & Light Mode Support
+✓ VoiceOver & Accessibility Support
+✓ Datenschutz: Keine Datensammlung, keine Tracking
+
+**Perfekt für:**
+- Musikliebhaber, die ihre Favoriten aktiv pflegen
+- Alle, die schnell sehen wollen, was gerade läuft
+- Nutzer, die nicht ständig zwischen Apps wechseln wollen
+- Leute, die beim Arbeiten Musik hören und nebenbei organisieren
+- Apple Music Power-User mit großen Bibliotheken
+
+**Das brauchst du:**
+• macOS 14.0 (Sonoma) oder neuer
+• Aktives Apple Music Abonnement
+• Kurze Einmalfreigabe für MusicKit-Zugriff
+
+**Deine Privatsphäre:**
+StarTune kommuniziert ausschließlich mit Apple Music. Keine Analysen, kein Tracking, keine Werbung. Deine Musikdaten bleiben privat.
+
+---
+
+Hast du Feedback oder Feature-Wünsche? Schreib mir.
+
+---
+
+## Keywords (100 Zeichen max, comma-separated)
+apple music,favoriten,menüleiste,menubar,musik,songs,favorites,star,rating,quick,musickit,produktiv
+
+---
+
+## What's New (Version 1.0)
+
+**Willkommen bei StarTune! 🎉**
+
+Die erste Version ist da und bringt:
+
+• 🌟 Now Playing Info direkt aus der Menüleiste abrufbar
+• 🎵 Schnelle Favorisierung ohne Music App zu öffnen
+• ⚡ Kompaktes Popup-Fenster mit allen wichtigen Infos
+• ✅ Sofortige Synchronisierung mit Apple Music
+• 🎨 Dark Mode & Light Mode Support
+• 🔒 100% Privatsphäre - keine Datensammlung
+
+**Erste Schritte:**
+1. Erlaube StarTune den Zugriff auf Apple Music
+2. Starte einen Song in Apple Music
+3. Klicke auf den Stern in der Menüleiste → Popup öffnet sich
+4. Klicke "Add to Favorites" → Fertig!
+
+Viel Spaß beim Musik entdecken!
+
+---
+
+## App Store Screenshots - Vorschläge
+
+**Screenshot 1: Hauptfeature - Popup**
+Titel: "Now Playing auf einen Blick"
+Zeigt: Geöffnetes Popup mit Song-Info (Titel, Artist, Album) und "Add to Favorites" Button
+
+**Screenshot 2: Kompakte Song-Info**
+Titel: "Alle Infos an einem Ort"
+Zeigt: Popup mit vollständigen Song-Details und Playback-Status
+
+**Screenshot 3: Favorisierung in Aktion**
+Titel: "Ein Klick zum Favoriten"
+Zeigt: Cursor über "Add to Favorites" Button
+
+**Screenshot 4: Menu Bar Integration**
+Titel: "Diskret & Elegant"
+Zeigt: StarTune-Stern dezent in der Menüleiste integriert
+
+**Screenshot 5: Apple Music Integration**
+Titel: "Nahtlos synchronisiert"
+Zeigt: Favorisierter Song erscheint in Apple Music Library
+
+---
+
+## Privacy Policy - Kurzfassung
+
+**Datenschutz bei StarTune:**
+
+StarTune sammelt, speichert oder überträgt keinerlei persönliche Daten oder Nutzungsstatistiken.
+
+**Was StarTune tut:**
+- Kommuniziert nur mit Apple Music (über MusicKit API)
+- Liest aktuell laufende Songs
+- Speichert Favoriten in deinem Apple Music Account
+
+**Was StarTune NICHT tut:**
+- Keine Analyse-Tools
+- Kein Tracking
+- Keine Werbenetzwerke
+- Keine Weitergabe an Dritte
+- Keine Cloud-Speicherung außerhalb von Apple Music
+
+---
+
+## Support & FAQ
+
+**F: Warum wird mein Song nicht favorisiert?**
+A: Stelle sicher, dass:
+- Du ein aktives Apple Music Abo hast
+- StarTune Zugriff auf Apple Music hat (Systemeinstellungen)
+- Ein Song gerade spielt (der Stern ist gold)
+- Eine Internetverbindung besteht
+
+**F: Funktioniert StarTune mit Spotify/anderen Diensten?**
+A: Nein, StarTune ist speziell für Apple Music entwickelt und nutzt MusicKits offizielle APIs.
+
+**F: Warum erscheint StarTune nicht im Dock?**
+A: StarTune ist eine reine Menu Bar App (by design). Das Icon lebt ausschließlich in deiner Menüleiste für minimale Ablenkung.
+
+**F: Kann ich Tastenkombinationen verwenden?**
+A: Noch nicht.
+
+**F: Werden Favoriten auf allen Geräten synchronisiert?**
+A: Ja! Da StarTune die offizielle Apple Music API nutzt, erscheinen Favoriten automatisch auf allen Geräten mit demselben Apple Music Account.
+
+---
+
+## Marketing Taglines (Alternative)
+
+- "Deine Musik. Immer griffbereit."
+- "Now Playing & Favoriten in der Menüleiste"
+- "Apple Music ohne ständigen App-Wechsel"
+- "Ein Klick zu deiner Musik-Info"
+- "Menu Bar Tool für Musikliebhaber"
+- "Schneller Zugriff auf deine Songs"
+
+---
+
+## Social Media Snippets
+
+**Twitter/X (280 Zeichen):**
+StarTune ist da! Sieh in der Menüleiste, was gerade in Apple Music läuft und favorisiere Songs direkt – ohne App-Wechsel. Menu Bar Tool, native SwiftUI, Zero Tracking. Für alle, die ihre Musik lieben und produktiv bleiben wollen. 🌟 #AppleMusic #macOS
+
+**Short Version:**
+StarTune: Now Playing & Favoriten direkt in deiner Menüleiste. Kein App-Wechsel mehr nötig. 🌟
+
+---
+
+## Press Kit - Ein-Satz-Beschreibung
+
+StarTune ist eine minimalistische macOS Menu Bar App, die Now Playing Informationen und schnelle Favorisierung für Apple Music direkt in die Menüleiste bringt – perfekt für Musikliebhaber, die ohne App-Wechsel produktiv bleiben wollen.

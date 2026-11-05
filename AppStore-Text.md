@@ -17,8 +17,6 @@ Dein Apple Music Favoriten-Manager in der Menüleiste. Sieh auf einen Blick, was
 
 ## Beschreibung
 
-**Deine Musik. Immer im Blick. Schnell favorisiert.**
-
 StarTune bringt die wichtigsten Apple Music Funktionen direkt in deine Menüleiste. Mit einem Klick siehst du, was gerade läuft, und kannst Songs zu deinen Favoriten hinzufügen – ohne die Music App öffnen zu müssen.
 
 **So funktioniert's:**
@@ -27,9 +25,7 @@ StarTune bringt die wichtigsten Apple Music Funktionen direkt in deine Menüleis
 • "Add to Favorites" → Song wird favorisiert
 • Fertig – synchronisiert mit all deinen Geräten
 
-**Warum StarTune?**
-
-Du hörst Musik, ein fantastischer Song läuft, und du willst ihn favorisieren. Normalerweise musst du Apple Music öffnen, durch Menüs navigieren, und mehrmals klicken. Mit StarTune geht's schneller: Stern in der Menüleiste anklicken, Song-Info ansehen, favorisieren – fertig.
+Ohne StarTune musst du zum Favorisieren Apple Music öffnen, durch Menüs navigieren und mehrmals klicken. Mit StarTune klickst du auf den Stern in der Menüleiste, siehst den Song und favorisierst ihn.
 
 **Features im Detail:**
 
@@ -43,20 +39,16 @@ Klick auf den Stern und du siehst sofort:
 ⚡ **Schnelle Favorisierung**
 Der "Add to Favorites" Button im Popup fügt den aktuellen Song zu deinen Apple Music Favoriten hinzu – ohne dass du die Music App öffnen musst.
 
-⭐ **Menu Bar Convenience**
+⭐ **Nur in der Menüleiste**
 Ein diskretes Stern-Icon in deiner Menüleiste – immer verfügbar, nie im Weg. Kein Dock-Icon, keine störenden Fenster.
 
-🔗 **Nahtlose Apple Music Integration**
+🔗 **Apple Music Integration**
 StarTune nutzt die offiziellen MusicKit APIs und AppleScript für zuverlässige Integration:
-- Sofortige Synchronisierung mit all deinen Geräten
 - Favoriten erscheinen direkt in Apple Music
 - Funktioniert mit der nativen Music.app
 
-🚀 **Menu Bar Design**
-StarTune lebt diskret in deiner Menüleiste. Kein störendes Dock-Icon – nur ein eleganter Stern, immer griffbereit wenn du ihn brauchst.
-
-💫 **Sofortige Bestätigung**
-Nach dem Favorisieren siehst du direkt im Popup die Bestätigung. Deine Favoriten werden sofort mit Apple Music synchronisiert.
+💫 **Bestätigung im Popup**
+Nach dem Favorisieren siehst du direkt im Popup die Bestätigung.
 
 **Technische Highlights:**
 
@@ -81,17 +73,9 @@ Nach dem Favorisieren siehst du direkt im Popup die Bestätigung. Deine Favorite
 **Deine Privatsphäre:**
 StarTune kommuniziert ausschließlich mit Apple Music. Keine Analysen, kein Tracking, keine Werbung. Deine Musikdaten bleiben privat.
 
-**Entwickelt mit Fokus auf Einfachheit:**
-StarTune entstand aus dem Wunsch, wichtige Music-Infos und Favoriten-Funktion direkt in der Menüleiste verfügbar zu haben – ohne ständig zwischen Apps wechseln zu müssen.
-
-**Probier's aus:**
-Lade StarTune herunter und hab deine Apple Music Infos immer im Blick. Favorisiere Songs, während du arbeitest, ohne deinen Workflow zu unterbrechen.
-
 ---
 
-Hast du Feedback oder Feature-Wünsche? Wir freuen uns von dir zu hören!
-
-Made with ⭐ for music lovers.
+Hast du Feedback oder Feature-Wünsche? Schreib mir.
 
 ---
 
@@ -165,8 +149,6 @@ StarTune sammelt, speichert oder überträgt keinerlei persönliche Daten oder N
 - Keine Weitergabe an Dritte
 - Keine Cloud-Speicherung außerhalb von Apple Music
 
-Deine Musik gehört dir. Punkt.
-
 ---
 
 ## Support & FAQ
@@ -185,7 +167,7 @@ A: Nein, StarTune ist speziell für Apple Music entwickelt und nutzt MusicKits o
 A: StarTune ist eine reine Menu Bar App (by design). Das Icon lebt ausschließlich in deiner Menüleiste für minimale Ablenkung.
 
 **F: Kann ich Tastenkombinationen verwenden?**
-A: Aktuell nicht, aber wir planen Keyboard Shortcuts für zukünftige Updates!
+A: Noch nicht.
 
 **F: Werden Favoriten auf allen Geräten synchronisiert?**
 A: Ja! Da StarTune die offizielle Apple Music API nutzt, erscheinen Favoriten automatisch auf allen Geräten mit demselben Apple Music Account.
