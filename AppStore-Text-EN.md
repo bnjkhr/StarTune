@@ -17,8 +17,6 @@ Your Apple Music favorites manager in the menu bar. See at a glance what's playi
 
 ## Description
 
-**Your Music. Always Visible. Quickly Favorited.**
-
 StarTune brings essential Apple Music features right into your menu bar. With one click, see what's currently playing and add songs to your favorites – without having to open the Music app.
 
 **How it works:**
@@ -89,7 +87,7 @@ Download StarTune and always have your Apple Music info in view. Favorite songs 
 
 ---
 
-Have feedback or feature requests? We'd love to hear from you!
+Have feedback or a feature request? Let me know.
 
 Made with ⭐ for music lovers.
 
@@ -165,8 +163,6 @@ StarTune does not collect, store, or transmit any personal data or usage statist
 - No sharing with third parties
 - No cloud storage outside of Apple Music
 
-Your music belongs to you. Period.
-
 ---
 
 ## Support & FAQ
@@ -185,7 +181,7 @@ A: No, StarTune is specifically designed for Apple Music and uses MusicKit's off
 A: StarTune is a menu bar-only app (by design). The icon lives exclusively in your menu bar for minimal distraction.
 
 **Q: Can I use keyboard shortcuts?**
-A: Not currently, but we're planning keyboard shortcuts for future updates!
+A: Not yet.
 
 **Q: Are favorites synchronized across all devices?**
 A: Yes! Since StarTune uses the official Apple Music API, favorites automatically appear on all devices with the same Apple Music account.
